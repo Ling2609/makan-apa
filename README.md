@@ -69,4 +69,6 @@ npm run data                       # rebuild js/knowledge.js from js/knowledge.j
 
 ## Credits
 
-Makan Apa? by [Ling2609](https://github.com/Ling2609). It started from [Eat For Tomorrow](https://github.com/sevenpluseight/eat-for-tomorrow), a hackathon game by team Keluar (Ling2609 and sevenpluseight). Eat For Tomorrow v2–v10 and all of Makan Apa? were built independently, without the other contributor. MIT licence.
+Makan Apa? by [Ling2609](https://github.com/Ling2609). 
+It started from [Eat For Tomorrow](https://github.com/sevenpluseight/eat-for-tomorrow), a hackathon game by team Keluar ([Ling2609](https://github.com/Ling2609) and [sevenpluseight](https://github.com/sevenpluseight)). 
+All of Makan Apa? were built independently, without the other contributor. MIT licence.
