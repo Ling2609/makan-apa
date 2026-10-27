@@ -1,0 +1,24 @@
+const test = require('node:test');
+const assert = require('node:assert/strict');
+const { setup } = require('./helpers');
+const env = setup(test);
+test('search, save, reload, saved-only, details and empty recovery', async () => {
+  const {page, ctx, errors} = await env.newPage({width:390});
+  await page.addInitScript(() => localStorage.setItem('eft2-profile', JSON.stringify({budget:120,kitchen:'shared',goal:'money',diet:{halal:true,allergies:[]}})));
+  await page.goto(env.url('app.html#collection'));
+  await page.waitForSelector('[data-save-meal]');
+  const id = await page.locator('[data-save-meal]').first().getAttribute('data-save-meal');
+  await page.locator('[data-save-meal]').first().click();
+  await page.reload();
+  await page.locator('#saved-only').check();
+  assert.equal(await page.locator('.meal-tile').count(),1);
+  assert.equal(await page.locator('[data-save-meal]').getAttribute('data-save-meal'),id);
+  await page.locator('[data-meal-details]').click();
+  await page.waitForSelector('dialog[open]');
+  await page.locator('#sheet-close').click();
+  await page.locator('#meal-search').fill('zzzzzz');
+  await page.locator('#clear-collection').click();
+  assert.ok(await page.locator('.meal-tile').count()>1);
+  assert.deepEqual(errors,[]);
+  await ctx.close();
+});

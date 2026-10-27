@@ -1,0 +1,1373 @@
+{
+ "asOf": "2026-10-25",
+ "levels": {
+  "strong": "Guideline, systematic review or meta-analysis",
+  "some": "At least one human trial or large cohort",
+  "lab": "Lab or animal study only",
+  "myth": "Tested and not supported / no evidence"
+ },
+ "notes": "Nutrient values from official food composition tables (USDA FoodData Central, MyFCD, PhilFCT) and NIH ODS fact sheets are tagged 'strong'. Single-study composition measurements are tagged 'some'. Prices are reused from swapsdata.json (KPDN PriceCatcher and retailer listings). 'cost' and 'easy' labels for foods not in swapsdata.json are editorial estimates, not sourced prices.",
+ "goals": [
+  {
+   "id": "eyes",
+   "title": "Healthier eyes",
+   "plain": "Vitamin A prevents night blindness caused by deficiency, but extra won't sharpen eyes that are already healthy. In people aged 50–85 who already had intermediate macular degeneration, an AREDS vitamin-and-zinc formula slowed it; adding lutein gave no extra overall benefit, but safely replaced beta-carotene.",
+   "evidence": {
+    "level": "strong",
+    "source": "NIH Office of Dietary Supplements, Vitamin A fact sheet; National Eye Institute, AREDS/AREDS2 major findings",
+    "url": "https://nei.nih.gov/research/clinical-trials/age-related-eye-disease-studies-aredsareds2/about-areds-and-areds2"
+   },
+   "foods": [
+    {
+     "name": "Kangkung",
+     "zh": "空心菜",
+     "ms": "Kangkung",
+     "why": "100 g raw has 315 mcg vitamin A (RAE), about 45% of a woman's 700 mcg daily need.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Water convolvulus, raw (FDC 169301)",
+      "url": "https://getfoodfacts.com/food/water-convolvulusraw-169301"
+     }
+    },
+    {
+     "name": "Eggs",
+     "zh": "鸡蛋",
+     "ms": "Telur",
+     "why": "Ordinary eggs have about 500 mcg lutein + zeaxanthin per 100 g. In a small study of 10 men, blood lutein rose about 3 times more from lutein-enriched eggs than from the same dose in spinach or pills.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [
+      "egg"
+     ],
+     "evidence": {
+      "level": "some",
+      "source": "Chung, Rasmussen & Johnson, J Nutr 2004 (10 men, lutein-enriched eggs), USDA ARS news release; lutein value from USDA FDC 171287",
+      "url": "https://www.ars.usda.gov/IS/pr/2004/040818.htm"
+     }
+    },
+    {
+     "name": "Carrots",
+     "zh": "红萝卜",
+     "ms": "Lobak merah",
+     "why": "Half a cup of raw carrot gives 459 mcg vitamin A (RAE), about half of the daily value.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "NIH Office of Dietary Supplements, Vitamin A fact sheet, Table 2",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+     }
+    },
+    {
+     "name": "Orange sweet potato",
+     "zh": "番薯",
+     "ms": "Ubi keledek",
+     "why": "One whole baked orange-fleshed sweet potato gives 1,403 mcg vitamin A (RAE), 156% of the daily value. Paler local varieties will have less.",
+     "cost": "low",
+     "easy": "wet market",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "NIH Office of Dietary Supplements, Vitamin A fact sheet, Table 2",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+     }
+    },
+    {
+     "name": "Chicken liver",
+     "zh": "鸡肝",
+     "ms": "Hati ayam",
+     "why": "Very rich: 100 g has 3,296 mcg vitamin A, more than the 3,000 mcg daily upper limit, so keep portions small. Pig liver is not halal; chicken liver is the halal option.",
+     "cost": "low",
+     "easy": "wet market",
+     "halal": true,
+     "vegetarian": false,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Chicken, liver, all classes, raw (FDC 171060)",
+      "url": "https://getfoodfacts.com/food/chicken-liver-all-classes-raw-171060"
+     }
+    }
+   ],
+   "cautions": [
+    {
+     "text": "Bilberry for night vision: a systematic review of placebo-controlled trials found no support in people with normal eyesight.",
+     "evidence": {
+      "level": "myth",
+      "source": "Canter & Ernst, Surv Ophthalmol 2004;49(1):38-50 (PubMed 14711439)",
+      "url": "https://pubmed.ncbi.nlm.nih.gov/14711439/"
+     }
+    },
+    {
+     "text": "Preformed vitamin A (liver, supplements) has an adult upper limit of 3,000 mcg a day. Above it can cause birth defects, so if you are or may be pregnant, avoid liver-heavy meals and high-dose supplements.",
+     "evidence": {
+      "level": "strong",
+      "source": "NIH Office of Dietary Supplements, Vitamin A fact sheet (UL and teratogenicity)",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+     }
+    },
+    {
+     "text": "AREDS eye vitamins do not prevent eye disease in people without it. The AREDS2 trial only enrolled people aged 50–85 with intermediate or advanced AMD.",
+     "evidence": {
+      "level": "strong",
+      "source": "National Eye Institute, AREDS/AREDS2 major findings",
+      "url": "https://nei.nih.gov/research/clinical-trials/age-related-eye-disease-studies-aredsareds2/about-areds-and-areds2"
+     }
+    },
+    {
+     "text": "Smokers and ex-smokers should avoid beta-carotene supplements: they raised lung cancer risk. Beta-carotene from vegetables is not the concern.",
+     "evidence": {
+      "level": "strong",
+      "source": "National Eye Institute, AREDS/AREDS2 major findings",
+      "url": "https://nei.nih.gov/research/clinical-trials/age-related-eye-disease-studies-aredsareds2/about-areds-and-areds2"
+     }
+    }
+   ]
+  },
+  {
+   "id": "iron",
+   "title": "Less tired (iron)",
+   "plain": "More iron only helps tiredness if you're low in it, and that's common: about 3 in 10 Malaysian women aged 15–49 had anaemia in NHMS 2019. Women 19–50 need 18 mg iron a day, men 8 mg.",
+   "evidence": {
+    "level": "some",
+    "source": "NHMS 2019 figures quoted by Health DG, Bernama 26 Jul 2021; RDA from NIH ODS Iron fact sheet",
+    "url": "https://www.bernama.com/en/general/news.php?id=1985914"
+   },
+   "foods": [
+    {
+     "name": "Dhal (red lentils)",
+     "zh": "扁豆",
+     "ms": "Kacang dal",
+     "why": "7.4 mg iron per 100 g dry. It's plant (non-haem) iron, so eat it with a vitamin C food like guava or tomato.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Lentils, pink or red, raw (FDC 174284)",
+      "url": "https://getfoodfacts.com/food/lentils-pink-or-red-raw-174284"
+     }
+    },
+    {
+     "name": "Kacang hijau",
+     "zh": "绿豆",
+     "ms": "Kacang hijau",
+     "why": "6.7 mg iron per 100 g dry, plant iron again, so add vitamin C.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Mung beans, mature seeds, raw (FDC 174256)",
+      "url": "https://getfoodfacts.com/food/mung-beans-mature-seeds-raw-174256"
+     }
+    },
+    {
+     "name": "Eggs",
+     "zh": "鸡蛋",
+     "ms": "Telur",
+     "why": "1.75 mg iron per 100 g (about 2 eggs). Cheap and goes with any meal.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [
+      "egg"
+     ],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Egg, whole, raw, fresh (FDC 171287)",
+      "url": "https://getfoodfacts.com/food/egg-whole-raw-fresh-171287"
+     }
+    },
+    {
+     "name": "Ikan kembung",
+     "zh": "甘望鱼",
+     "ms": "Ikan kembung",
+     "why": "1.4 mg iron per 100 g. Fish has the better-absorbed haem iron and also helps you absorb plant iron eaten in the same meal.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": false,
+     "allergens": [
+      "fish"
+     ],
+     "evidence": {
+      "level": "strong",
+      "source": "PhilFCT 2019 Indian mackerel (G073); haem iron and meat-factor effect from NIH ODS Iron fact sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+     }
+    },
+    {
+     "name": "Chicken liver",
+     "zh": "鸡肝",
+     "ms": "Hati ayam",
+     "why": "9 mg iron per 100 g, but also very high in vitamin A, so a small portion now and then is enough.",
+     "cost": "low",
+     "easy": "wet market",
+     "halal": true,
+     "vegetarian": false,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Chicken, liver, all classes, raw (FDC 171060)",
+      "url": "https://getfoodfacts.com/food/chicken-liver-all-classes-raw-171060"
+     }
+    },
+    {
+     "name": "Tempeh",
+     "zh": "天贝",
+     "ms": "Tempe",
+     "why": "2.7 mg iron per 100 g plus lots of protein, for about RM5 a 250 g pack.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [
+      "soy"
+     ],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Tempeh (FDC 174272)",
+      "url": "https://getfoodfacts.com/food/tempeh-174272"
+     }
+    }
+   ],
+   "cautions": [
+    {
+     "text": "Tea, coffee and cocoa with a meal cut iron absorption: black tea by 79–94% in a classic test meal study. Adding milk didn't help. Have your teh or kopi between meals, not with them.",
+     "evidence": {
+      "level": "some",
+      "source": "Hurrell, Reddy & Cook, Br J Nutr 1999;81(4):289-295",
+      "url": "https://doi.org/10.1017/S0007114599000537"
+     }
+    },
+    {
+     "text": "Vegetarians need about 1.8 times more iron, because plant iron is absorbed less well.",
+     "evidence": {
+      "level": "strong",
+      "source": "NIH Office of Dietary Supplements, Iron fact sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+     }
+    },
+    {
+     "text": "Spinach's iron is poorly absorbed because it also contains blockers like polyphenols.",
+     "evidence": {
+      "level": "strong",
+      "source": "NIH Office of Dietary Supplements, Iron fact sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Iron-HealthProfessional/"
+     }
+    },
+    {
+     "text": "Anaemia figures measure low haemoglobin, which has causes other than iron. If you're always tired, a blood test tells you whether iron is the problem.",
+     "evidence": {
+      "level": "some",
+      "source": "NHMS 2019 reports anaemia (low haemoglobin), not iron deficiency specifically; Bernama 26 Jul 2021",
+      "url": "https://www.bernama.com/en/general/news.php?id=1985914"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bones",
+   "title": "Stronger bones",
+   "plain": "Adults 19–50 need about 1,000 mg calcium a day (1,300 mg if 14–18). Vitamin D is needed to absorb it, and sunlight on skin is the main source for most people.",
+   "evidence": {
+    "level": "strong",
+    "source": "NIH Office of Dietary Supplements, Calcium and Vitamin D fact sheets",
+    "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+   },
+   "foods": [
+    {
+     "name": "Ikan bilis (whole, with heads)",
+     "zh": "江鱼仔",
+     "ms": "Ikan bilis",
+     "why": "Eating them whole, heads and guts on, gave about 8 times more calcium than cleaned ones in a Singapore study.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": false,
+     "allergens": [
+      "fish"
+     ],
+     "evidence": {
+      "level": "some",
+      "source": "Henry et al., Food Chemistry 2015 (Clinical Nutrition Research Centre, Singapore), reported by Malay Mail 30 May 2015",
+      "url": "https://www.malaymail.com/news/malaysia/2015/05/30/study-ikan-bilis-is-good-for-you-but-dont-clean-them/905995"
+     }
+    },
+    {
+     "name": "Calcium-set tofu",
+     "zh": "豆腐",
+     "ms": "Tauhu",
+     "why": "Half a cup of firm tofu made with calcium sulfate has 253 mg calcium, close to a cup of milk. Check the label for calcium sulfate (kalsium sulfat).",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [
+      "soy"
+     ],
+     "evidence": {
+      "level": "strong",
+      "source": "NIH Office of Dietary Supplements, Calcium fact sheet, Table 2",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+     }
+    },
+    {
+     "name": "Canned sardines (eat the bones)",
+     "zh": "沙丁鱼",
+     "ms": "Ikan sardin",
+     "why": "3 oz (85 g) of canned sardines with bones has 325 mg calcium. The soft bones are where it is.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": false,
+     "allergens": [
+      "fish"
+     ],
+     "evidence": {
+      "level": "strong",
+      "source": "NIH Office of Dietary Supplements, Calcium fact sheet, Table 2",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+     }
+    },
+    {
+     "name": "Kailan",
+     "zh": "芥兰",
+     "ms": "Kailan",
+     "why": "179 mg calcium per 100 g, about twice what bayam has (90 mg).",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "MyFCD 1997, Kale, Chinese (kai-lan-coy), code 105046",
+      "url": "https://myfcd.moh.gov.my/index.php/1997-food-compositon-database/183-kale%2c-chinese-(kai-lan-coy)-%3b-brassica-alboglabra.html"
+     }
+    },
+    {
+     "name": "Milk",
+     "zh": "牛奶",
+     "ms": "Susu",
+     "why": "One cup has 276–299 mg calcium. Vitamin D-fortified milk adds about 2.9 mcg vitamin D.",
+     "cost": "mid",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [
+      "milk"
+     ],
+     "evidence": {
+      "level": "strong",
+      "source": "NIH Office of Dietary Supplements, Calcium and Vitamin D fact sheets",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+     }
+    }
+   ],
+   "cautions": [
+    {
+     "text": "Only about 5% of the calcium in spinach is absorbed, against about 27% from milk, because of oxalate. Don't count spinach as your calcium source.",
+     "evidence": {
+      "level": "strong",
+      "source": "NIH Office of Dietary Supplements, Calcium fact sheet",
+      "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+     }
+    },
+    {
+     "text": "Sun makes vitamin D in your skin, but UV also causes skin cancer, so limiting sun exposure is still wise. Food sources are small: an egg has about 1.1 mcg vs the 15 mcg daily need.",
+     "evidence": {
+      "level": "strong",
+      "source": "NIH Office of Dietary Supplements, Vitamin D fact sheet",
+      "url": "https://ods.od.nih.gov/factsheets/VitaminD-HealthProfessional/"
+     }
+    }
+   ]
+  },
+  {
+   "id": "digestion",
+   "title": "Better digestion",
+   "plain": "WHO says adults should eat at least 25 g of natural fibre a day, from whole grains, vegetables, fruit and pulses. Malaysia's food pyramid asks for 3+ servings of veg and 2 of fruit daily.",
+   "evidence": {
+    "level": "strong",
+    "source": "WHO guideline on carbohydrate intake, 17 Jul 2023; Malaysian Food Pyramid 2020 (MOH)",
+    "url": "https://www.who.int/news/item/17-07-2023-who-updates-guidelines-on-fats-and-carbohydrates"
+   },
+   "foods": [
+    {
+     "name": "Kacang hijau",
+     "zh": "绿豆",
+     "ms": "Kacang hijau",
+     "why": "16.3 g fibre per 100 g dry, one of the richest cheap sources. Bubur kacang hijau counts.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Mung beans, mature seeds, raw (FDC 174256)",
+      "url": "https://getfoodfacts.com/food/mung-beans-mature-seeds-raw-174256"
+     }
+    },
+    {
+     "name": "Dhal",
+     "zh": "扁豆",
+     "ms": "Kacang dal",
+     "why": "10.8 g fibre per 100 g dry, at about RM6 a kilo.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Lentils, pink or red, raw (FDC 174284)",
+      "url": "https://getfoodfacts.com/food/lentils-pink-or-red-raw-174284"
+     }
+    },
+    {
+     "name": "Guava",
+     "zh": "番石榴",
+     "ms": "Jambu batu",
+     "why": "5.4 g fibre per 100 g, more than twice what blueberries have (2.4 g).",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Guavas, common, raw (FDC 173044)",
+      "url": "https://getfoodfacts.com/food/guavas-common-raw-173044"
+     }
+    },
+    {
+     "name": "Brown rice",
+     "zh": "糙米",
+     "ms": "Beras perang",
+     "why": "3.6 g fibre per 100 g uncooked, and only about RM8.30 a kilo.",
+     "cost": "low",
+     "easy": "supermarket",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Rice, brown, long-grain, raw (FDC 169703)",
+      "url": "https://getfoodfacts.com/food/rice-brown-long-grain-raw-includes-foods-for-usdas-food-distribution-program-169703"
+     }
+    },
+    {
+     "name": "Banana",
+     "zh": "香蕉",
+     "ms": "Pisang",
+     "why": "2.6 g fibre per 100 g, easy to carry to class.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Bananas, raw (FDC 173944)",
+      "url": "https://getfoodfacts.com/food/bananas-raw-173944"
+     }
+    },
+    {
+     "name": "Kangkung",
+     "zh": "空心菜",
+     "ms": "Kangkung",
+     "why": "2.1 g fibre per 100 g, and one of the cheapest greens at about RM6.50 a kilo.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Water convolvulus, raw (FDC 169301)",
+      "url": "https://getfoodfacts.com/food/water-convolvulusraw-169301"
+     }
+    }
+   ],
+   "cautions": [
+    {
+     "text": "In people with constipation, more fibre made them go more often, but it didn't clearly help pain or hard stools. The meta-analysis had only 5 small trials.",
+     "evidence": {
+      "level": "some",
+      "source": "Yang et al., World J Gastroenterol 2012;18(48):7378-7383 (meta-analysis of 5 RCTs)",
+      "url": "https://wjgnet.com/1007-9327/full/v18/i48/7378.htm"
+     }
+    }
+   ]
+  },
+  {
+   "id": "muscle",
+   "title": "Muscle and protein on a budget",
+   "plain": "Most adults need about 0.83 g protein per kg body weight a day (about 50 g for 60 kg). Protein builds muscle when you also do resistance training, and gains stopped rising above about 1.6 g/kg a day.",
+   "evidence": {
+    "level": "strong",
+    "source": "WHO/FAO/UNU 2007 and EFSA 2012 protein reference intake (EU Knowledge4Policy); Morton et al., Br J Sports Med 2018 meta-analysis",
+    "url": "https://knowledge4policy.ec.europa.eu/health-promotion-knowledge-gateway/dietary-protein-intake-adults-3_en"
+   },
+   "foods": [
+    {
+     "name": "Dhal",
+     "zh": "扁豆",
+     "ms": "Kacang dal",
+     "why": "23.9 g protein per 100 g dry for about RM6 a kilo, about 16 times more protein per ringgit than quinoa.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FDC 174284; price from swapsdata.json (Shopee listing via checkpricemalaysia.com)",
+      "url": "https://getfoodfacts.com/food/lentils-pink-or-red-raw-174284"
+     }
+    },
+    {
+     "name": "Eggs",
+     "zh": "鸡蛋",
+     "ms": "Telur",
+     "why": "12.6 g protein per 100 g, about 6 g per medium egg.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [
+      "egg"
+     ],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Egg, whole, raw, fresh (FDC 171287)",
+      "url": "https://getfoodfacts.com/food/egg-whole-raw-fresh-171287"
+     }
+    },
+    {
+     "name": "Tempeh",
+     "zh": "天贝",
+     "ms": "Tempe",
+     "why": "20.3 g protein per 100 g. A RM5 pack (250 g) has about 50 g protein.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [
+      "soy"
+     ],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FDC 174272; price from swapsdata.json (Jaya Grocer listing)",
+      "url": "https://getfoodfacts.com/food/tempeh-174272"
+     }
+    },
+    {
+     "name": "Kacang hijau",
+     "zh": "绿豆",
+     "ms": "Kacang hijau",
+     "why": "23.9 g protein per 100 g dry, the same as dhal.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Mung beans, mature seeds, raw (FDC 174256)",
+      "url": "https://getfoodfacts.com/food/mung-beans-mature-seeds-raw-174256"
+     }
+    },
+    {
+     "name": "Ikan kembung",
+     "zh": "甘望鱼",
+     "ms": "Ikan kembung",
+     "why": "21.8 g protein per 100 g, about the same as salmon (20.3 g) at around a quarter of the price.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": false,
+     "allergens": [
+      "fish"
+     ],
+     "evidence": {
+      "level": "strong",
+      "source": "PhilFCT 2019, Mackerel, Indian (G073)",
+      "url": "https://i.fnri.dost.gov.ph/fct/library/report/4053"
+     }
+    },
+    {
+     "name": "Chicken breast",
+     "zh": "鸡胸肉",
+     "ms": "Dada ayam",
+     "why": "21.4 g protein per 100 g raw (with skin).",
+     "cost": "mid",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": false,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central Foundation Foods, Chicken, breast, meat and skin, raw (FDC 2727569)",
+      "url": "https://getfoodfacts.com/food/chicken-breast-meat-and-skin-raw-2727569"
+     }
+    }
+   ],
+   "cautions": [
+    {
+     "text": "Past about 1.6 g protein per kg a day, extra protein added no more muscle in 49 trials. Protein shakes aren't needed if meals already get you there.",
+     "evidence": {
+      "level": "strong",
+      "source": "Morton et al., Br J Sports Med 2018;52:376-384 (49 RCTs, 1,863 people)",
+      "url": "https://openrepository.aut.ac.nz/items/8dea98a4-4e37-4c60-be43-4b6ece0bd9a5/full"
+     }
+    },
+    {
+     "text": "Those trials all included weight training. Eating more protein without training isn't shown to build muscle.",
+     "evidence": {
+      "level": "strong",
+      "source": "Morton et al., Br J Sports Med 2018 (all included trials used resistance training)",
+      "url": "https://openrepository.aut.ac.nz/items/8dea98a4-4e37-4c60-be43-4b6ece0bd9a5/full"
+     }
+    }
+   ]
+  },
+  {
+   "id": "bloodpressure",
+   "title": "Healthy blood pressure",
+   "plain": "WHO says adults should eat under 5 g salt (2,000 mg sodium) and at least 3,510 mg potassium a day. Malaysian adults average 7.9 g salt a day, and about 79% go over the limit.",
+   "evidence": {
+    "level": "strong",
+    "source": "WHO sodium and potassium guidelines (2013); MyCoSS 2017–2018, Abdul Aziz et al., J Health Popul Nutr 2021 (24-h urine, n=798)",
+    "url": "https://www.who.int/news/item/31-01-2013-who-issues-new-guidance-on-dietary-salt-and-potassium"
+   },
+   "foods": [
+    {
+     "name": "Kacang hijau",
+     "zh": "绿豆",
+     "ms": "Kacang hijau",
+     "why": "1,246 mg potassium per 100 g dry. Pulses are among the richest potassium foods.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Mung beans, mature seeds, raw (FDC 174256)",
+      "url": "https://getfoodfacts.com/food/mung-beans-mature-seeds-raw-174256"
+     }
+    },
+    {
+     "name": "Dhal",
+     "zh": "扁豆",
+     "ms": "Kacang dal",
+     "why": "668 mg potassium per 100 g dry.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Lentils, pink or red, raw (FDC 174284)",
+      "url": "https://getfoodfacts.com/food/lentils-pink-or-red-raw-174284"
+     }
+    },
+    {
+     "name": "Guava",
+     "zh": "番石榴",
+     "ms": "Jambu batu",
+     "why": "About 418 mg potassium per 100 g, more than banana.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Guavas, common, raw (FDC 173044)",
+      "url": "https://getfoodfacts.com/food/guavas-common-raw-173044"
+     }
+    },
+    {
+     "name": "Banana",
+     "zh": "香蕉",
+     "ms": "Pisang",
+     "why": "358 mg potassium per 100 g.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Bananas, raw (FDC 173944)",
+      "url": "https://getfoodfacts.com/food/bananas-raw-173944"
+     }
+    },
+    {
+     "name": "Kangkung",
+     "zh": "空心菜",
+     "ms": "Kangkung",
+     "why": "312 mg potassium per 100 g.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Water convolvulus, raw (FDC 169301)",
+      "url": "https://getfoodfacts.com/food/water-convolvulusraw-169301"
+     }
+    }
+   ],
+   "cautions": [
+    {
+     "text": "About 4 in 5 Malaysian adults eat more salt than WHO's limit. The study measured urine, so it couldn't say which foods the salt came from.",
+     "evidence": {
+      "level": "some",
+      "source": "Abdul Aziz et al., MyCoSS 2017–2018, J Health Popul Nutr 2021;40(Suppl 1):14",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC8165759/"
+     }
+    },
+    {
+     "text": "High salt with low potassium raises blood pressure, which raises the risk of heart disease and stroke.",
+     "evidence": {
+      "level": "strong",
+      "source": "WHO sodium and potassium guidelines, 31 Jan 2013",
+      "url": "https://www.who.int/news/item/31-01-2013-who-issues-new-guidance-on-dietary-salt-and-potassium"
+     }
+    }
+   ]
+  },
+  {
+   "id": "focus",
+   "title": "Steady energy for study",
+   "plain": "Whole grains and pulses add fibre and are a good base for meals. But evidence that low-GI 'brain food' improves focus is weak: a review of 11 studies called it inconclusive.",
+   "evidence": {
+    "level": "strong",
+    "source": "Philippou & Constantinou, Adv Nutr 2014;5(2):119-130 (systematic review)",
+    "url": "https://pure.unic.ac.cy/en/publications/the-influence-of-glycemic-index-on-cognitive-functioning-a-system/"
+   },
+   "foods": [
+    {
+     "name": "Cooled, reheated rice",
+     "zh": "隔夜冷藏米饭",
+     "ms": "Nasi sejuk dipanaskan semula",
+     "why": "Rice chilled 24 h in the fridge then reheated had 2.6 times the resistant starch and about 18% lower blood-sugar rise in 15 healthy adults. Chill it fast (see cautions).",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "some",
+      "source": "Sonia, Witjaksono & Ridwan, Asia Pac J Clin Nutr 2015;24(4):620-625",
+      "url": "https://apjcn.qdu.edu.cn/24_4_24.pdf"
+     }
+    },
+    {
+     "name": "Brown rice",
+     "zh": "糙米",
+     "ms": "Beras perang",
+     "why": "3.6 g fibre per 100 g uncooked. WHO wants most carbs to come from whole grains, veg, fruit and pulses.",
+     "cost": "low",
+     "easy": "supermarket",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FDC 169703; WHO carbohydrate guideline 2023",
+      "url": "https://www.who.int/news/item/17-07-2023-who-updates-guidelines-on-fats-and-carbohydrates"
+     }
+    },
+    {
+     "name": "Dhal",
+     "zh": "扁豆",
+     "ms": "Kacang dal",
+     "why": "A pulse with 10.8 g fibre and 23.9 g protein per 100 g dry, so a dhal meal is filling.",
+     "cost": "low",
+     "easy": "everywhere",
+     "halal": true,
+     "vegetarian": true,
+     "allergens": [],
+     "evidence": {
+      "level": "strong",
+      "source": "USDA FoodData Central SR Legacy, Lentils, pink or red, raw (FDC 174284)",
+      "url": "https://getfoodfacts.com/food/lentils-pink-or-red-raw-174284"
+     }
+    }
+   ],
+   "cautions": [
+    {
+     "text": "No food is proven to boost focus. Low-GI meals may help adults a little, but the 11 studies were mixed.",
+     "evidence": {
+      "level": "strong",
+      "source": "Philippou & Constantinou, Adv Nutr 2014 (systematic review)",
+      "url": "https://pure.unic.ac.cy/en/publications/the-influence-of-glycemic-index-on-cognitive-functioning-a-system/"
+     }
+    },
+    {
+     "text": "Cooked rice can carry Bacillus cereus spores that survive cooking. Chill it within about 1 hour, eat within 24 hours, and reheat only once until steaming hot.",
+     "evidence": {
+      "level": "strong",
+      "source": "Food Standards Scotland, Rice: safe storage and reheating",
+      "url": "https://foodstandards.gov.scot/consumers/food-safety/at-home/rice"
+     }
+    },
+    {
+     "text": "Pegaga for memory: a meta-analysis of 11 trials found no improvement in any thinking skill.",
+     "evidence": {
+      "level": "myth",
+      "source": "Puttarak et al., Sci Rep 2017;7:10646 (systematic review and meta-analysis)",
+      "url": "https://link.springer.com/article/10.1038/s41598-017-09823-9"
+     }
+    }
+   ]
+  }
+ ],
+ "swaps": [
+  {
+   "from": "Blueberries",
+   "fromZh": "蓝莓",
+   "to": "Guava",
+   "toZh": "番石榴",
+   "why": "Guava has about 23 times the vitamin C (228 vs 9.7 mg per 100 g) and twice the fibre (5.4 vs 2.4 g), at a tenth of the price (RM7.92 vs RM79.20/kg).",
+   "evidence": {
+    "level": "strong",
+    "source": "USDA FDC 173044 and 171711; prices from swapsdata.json (KPDN PriceCatcher, myAEON2go)",
+    "url": "https://getfoodfacts.com/food/guavas-common-raw-173044"
+   }
+  },
+  {
+   "from": "Blueberries (for anthocyanins)",
+   "fromZh": "蓝莓",
+   "to": "Pulut hitam",
+   "toZh": "黑糯米",
+   "why": "Black rice gets its colour from the same pigment family (anthocyanins, 88–100% cyanidin-3-glucoside). Amounts vary hugely by variety (about 3–500 mg per 100 g), and health benefits are mostly shown in lab studies.",
+   "evidence": {
+    "level": "lab",
+    "source": "Zhao et al., Foods 2025;14(8):1394 (review of coloured rice)",
+    "url": "https://www.mdpi.com/2304-8158/14/8/1394"
+   }
+  },
+  {
+   "from": "Orange",
+   "fromZh": "橙",
+   "to": "Guava",
+   "toZh": "番石榴",
+   "why": "Guava has almost 4 times the vitamin C of an orange (228 vs 59 mg per 100 g).",
+   "evidence": {
+    "level": "strong",
+    "source": "USDA FDC 173044 (guava) and 169917 (navel orange)",
+    "url": "https://getfoodfacts.com/food/oranges-raw-navels-includes-foods-for-usdas-food-distribution-program-169917"
+   }
+  },
+  {
+   "from": "Kale",
+   "fromZh": "羽衣甘蓝",
+   "to": "Kailan",
+   "toZh": "芥兰",
+   "why": "Kailan (Brassica oleracea var. alboglabra) is a close relative of cabbage and broccoli, costs about a fifth of kale (RM9.58 vs RM46.67/kg), and has more vitamin C (107 vs 93 mg) and iron (2.0 vs 1.6 mg) per 100 g. Kale has more calcium (254 vs 179 mg).",
+   "evidence": {
+    "level": "strong",
+    "source": "MyFCD 105046; USDA FDC 168421; species: NSW DPI, Gai lan (Brassica oleracea var. alboglabra); prices from swapsdata.json",
+    "url": "https://myfcd.moh.gov.my/index.php/1997-food-compositon-database/183-kale%2c-chinese-(kai-lan-coy)-%3b-brassica-alboglabra.html"
+   }
+  },
+  {
+   "from": "Kale",
+   "fromZh": "羽衣甘蓝",
+   "to": "Kangkung",
+   "toZh": "空心菜",
+   "why": "Kangkung is about a seventh of the price (RM6.50 vs RM46.67/kg), so each ringgit buys more of every nutrient. Per 100 g, kale still has more fibre (4.1 vs 2.1 g) and calcium (254 vs 77 mg).",
+   "evidence": {
+    "level": "strong",
+    "source": "USDA FDC 169301 and 168421; prices from swapsdata.json (KPDN PriceCatcher, Kampung Cameron)",
+    "url": "https://getfoodfacts.com/food/water-convolvulusraw-169301"
+   }
+  },
+  {
+   "from": "Spinach",
+   "fromZh": "菠菜",
+   "to": "Bayam",
+   "toZh": "苋菜",
+   "why": "Local bayam has more vitamin C (77 vs 28 mg) and iron (3.8 vs 2.7 mg) per 100 g than imported spinach, at RM5.99 vs about RM80/kg. Spinach has about 30% more potassium (558 vs 385 mg).",
+   "evidence": {
+    "level": "strong",
+    "source": "MyFCD 105089 (bayam putih); USDA FDC 168462; prices from swapsdata.json",
+    "url": "https://myfcd.moh.gov.my/index.php/1997-food-compositon-database/226-spinach-(bayam-putih)-%3B-amaranthus-viridis.html"
+   }
+  },
+  {
+   "from": "Broccoli",
+   "fromZh": "西兰花",
+   "to": "Kailan",
+   "toZh": "芥兰",
+   "why": "Kailan has nearly 4 times the calcium (179 vs 47 mg) and almost 3 times the iron (2.0 vs 0.7 mg) per 100 g, and is a bit cheaper (RM9.58 vs RM11.11/kg).",
+   "evidence": {
+    "level": "strong",
+    "source": "MyFCD 105046; USDA FDC 170379; prices from swapsdata.json",
+    "url": "https://getfoodfacts.com/food/broccoli-raw-170379"
+   }
+  },
+  {
+   "from": "Quinoa",
+   "fromZh": "藜麦",
+   "to": "Dhal",
+   "toZh": "扁豆",
+   "why": "Dry dhal beats dry quinoa on protein (23.9 vs 14.1 g), fibre (10.8 vs 7.0 g) and iron (7.4 vs 4.6 mg) per 100 g, at RM6.18 vs RM59.80/kg.",
+   "evidence": {
+    "level": "strong",
+    "source": "USDA FDC 174284 and 168874; prices from swapsdata.json",
+    "url": "https://getfoodfacts.com/food/lentils-pink-or-red-raw-174284"
+   }
+  },
+  {
+   "from": "Quinoa",
+   "fromZh": "藜麦",
+   "to": "Tempeh",
+   "toZh": "天贝",
+   "why": "Tempeh has more protein (20.3 vs 14.1 g per 100 g) at a third of the price (RM20 vs RM59.80/kg), so about 4 times the protein per ringgit.",
+   "evidence": {
+    "level": "strong",
+    "source": "USDA FDC 174272 and 168874; prices from swapsdata.json",
+    "url": "https://getfoodfacts.com/food/tempeh-174272"
+   }
+  },
+  {
+   "from": "Salmon",
+   "fromZh": "三文鱼",
+   "to": "Ikan kembung",
+   "toZh": "甘望鱼",
+   "why": "About the same protein (21.8 vs 20.3 g per 100 g) at about a quarter of the price (RM16 vs RM59.90/kg). Kembung is rich in omega-3 (DHA 10.6%, EPA 4.9% of its fat), but no one has measured its grams per 100 g, so we can't say it matches salmon.",
+   "evidence": {
+    "level": "some",
+    "source": "PhilFCT G073; USDA FDC 2684441; Muhamad & Mohamad, Sains Malaysiana 2012;41(1):81-94; prices from swapsdata.json",
+    "url": "https://ukm.my/jsm/english_journals/vol41num1_2012/vol41num1_2012pg81-94.html"
+   }
+  }
+ ],
+ "pairings": [
+  {
+   "a": "Durian",
+   "b": "Alcohol",
+   "verdict": "caution",
+   "text": "In test tubes, durian extract blocked up to 70% of the liver enzyme that clears alcohol's toxic by-product. It's not tested in people, but don't binge on both together.",
+   "evidence": {
+    "level": "lab",
+    "source": "Maninang, Lizada & Gemma, Food Chemistry 2009;117(2):352-355 (test-tube study)",
+    "url": "https://doi.org/10.1016/j.foodchem.2009.03.106"
+   }
+  },
+  {
+   "a": "Teh / kopi",
+   "b": "Iron-rich meal",
+   "verdict": "caution",
+   "text": "Black tea cut iron absorption from a meal by 79–94%, and coffee and cocoa also blocked it. Have your drink between meals instead, especially if you're low in iron.",
+   "evidence": {
+    "level": "some",
+    "source": "Hurrell, Reddy & Cook, Br J Nutr 1999;81(4):289-295",
+    "url": "https://doi.org/10.1017/S0007114599000537"
+   }
+  },
+  {
+   "a": "Teh tarik (milk)",
+   "b": "Iron-rich meal",
+   "verdict": "caution",
+   "text": "Adding milk to tea or coffee made little or no difference to how much iron was blocked.",
+   "evidence": {
+    "level": "some",
+    "source": "Hurrell, Reddy & Cook, Br J Nutr 1999;81(4):289-295",
+    "url": "https://doi.org/10.1017/S0007114599000537"
+   }
+  },
+  {
+   "a": "Grapefruit or pomelo",
+   "b": "Some medicines",
+   "verdict": "caution",
+   "text": "The US FDA lists pomelo alongside grapefruit: they can raise blood levels of some statins, blood-pressure and other drugs. If you take regular medicine, ask your pharmacist before eating limau bali.",
+   "evidence": {
+    "level": "strong",
+    "source": "US FDA Consumer Update, Grapefruit Juice and Some Drugs Don't Mix",
+    "url": "https://www.fda.gov/consumers/consumer-updates/grapefruit-juice-and-some-drugs-dont-mix"
+   }
+  },
+  {
+   "a": "Unripe persimmon",
+   "b": "Large amounts",
+   "verdict": "caution",
+   "text": "Tannin in unripe persimmon skin can clump in the stomach into a 'persimmon stone'. It's rare and mostly seen in people with past stomach surgery or slow digestion. Eat ripe ones and don't overdo it. We found no evidence about an empty stomach specifically.",
+   "evidence": {
+    "level": "some",
+    "source": "Iwamuro et al., World J Gastrointest Endosc 2015;7(4):336-345 (review of bezoars and case reports)",
+    "url": "https://wjgnet.com/1948-5190/full/v7/i4/336.htm"
+   }
+  },
+  {
+   "a": "Vitamin C food",
+   "b": "Plant iron",
+   "verdict": "good",
+   "text": "Vitamin C improves absorption of the iron in plant foods. Have guava or a squeeze of lime with dhal, tempeh or greens.",
+   "evidence": {
+    "level": "strong",
+    "source": "NIH Office of Dietary Supplements, Iron and Vitamin C fact sheets",
+    "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+   }
+  },
+  {
+   "a": "A little oil",
+   "b": "Carotenoid veg (carrot, tomato, greens)",
+   "verdict": "good",
+   "text": "With a fat-free dressing, salad eaters absorbed almost no beta-carotene. Full-fat dressing gave significantly more than reduced-fat, so a bit of oil when cooking veg helps.",
+   "evidence": {
+    "level": "some",
+    "source": "Brown, White et al., Am J Clin Nutr 2004 (Iowa State University news release)",
+    "url": "https://news.iastate.edu/news/2004/jul/whitebetac.shtml"
+   }
+  },
+  {
+   "a": "Turmeric",
+   "b": "Black pepper",
+   "verdict": "good",
+   "text": "Piperine from pepper raised curcumin absorption 20-fold (2000%) in volunteers. That was with 2 g curcumin and 20 mg piperine, far more than a curry has, so treat the effect in food as unproven.",
+   "evidence": {
+    "level": "some",
+    "source": "Shoba et al., Planta Med 1998;64(4):353-356 (PubMed 9619120)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9619120/"
+   }
+  },
+  {
+   "a": "Durian",
+   "b": "Crab",
+   "verdict": "myth",
+   "text": "No study has found this pair harmful. When Chinese universities fed volunteers the best-known 'clashing' pairs, the worst result was mild diarrhoea in 3 people.",
+   "evidence": {
+    "level": "myth",
+    "source": "No study of durian + crab found; general 'clashing food' tests by Lanzhou University and Harbin Medical University, reported by 现代快报 via Sina News, 21 Jul 2011",
+    "url": "https://news.sina.com.cn/c/2011-07-21/025722849227.shtml"
+   }
+  },
+  {
+   "a": "Prawns",
+   "b": "Vitamin C",
+   "verdict": "myth",
+   "text": "Seafood arsenic is mostly the low-harm organic form. China's limit for fish is 0.1 mg/kg, while a deadly dose of arsenic trioxide (砒霜) is 100–200 mg, so squeeze the lime.",
+   "evidence": {
+    "level": "myth",
+    "source": "Expert rebuttal in 重庆晨报 via The Paper, 12 Jul 2017; WHO arsenic fact sheet",
+    "url": "https://www.thepaper.cn/newsDetail_forward_1731126"
+   }
+  },
+  {
+   "a": "Crab",
+   "b": "Persimmon",
+   "verdict": "myth",
+   "text": "The real risk is unripe, astringent persimmon, which is high in tannin (over 4%), with or without crab. Ripe sweet persimmon has under 0.1% tannin and is fine with crab.",
+   "evidence": {
+    "level": "myth",
+    "source": "Expert rebuttal, 重庆晨报 via The Paper (澎湃新闻), 12 Jul 2017",
+    "url": "https://www.thepaper.cn/newsDetail_forward_1731126"
+   }
+  },
+  {
+   "a": "Spinach",
+   "b": "Tofu",
+   "verdict": "myth",
+   "text": "Not harmful. Spinach's oxalate binds some of tofu's calcium so you absorb less, and the rest leaves your body. Just don't rely on that meal for calcium.",
+   "evidence": {
+    "level": "myth",
+    "source": "NIH ODS Calcium fact sheet (oxalate absorption); expert rebuttal via The Paper, 12 Jul 2017",
+    "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+   }
+  },
+  {
+   "a": "'Clashing' foods (食物相克)",
+   "b": "Each other",
+   "verdict": "myth",
+   "text": "Lanzhou University fed 100 volunteers the 5 most-cited 'clashing' pairs and saw no ill effects, only complaints about taste. A Harbin test of 12 pairs found only mild diarrhoea in 3 people.",
+   "evidence": {
+    "level": "myth",
+    "source": "现代快报 via Sina News, 21 Jul 2011 (informal tests, not peer-reviewed)",
+    "url": "https://news.sina.com.cn/c/2011-07-21/025722849227.shtml"
+   }
+  }
+ ],
+ "cooking": [
+  {
+   "food": "Broccoli and leafy greens",
+   "tip": "Steam instead of boiling. In broccoli (the vegetable tested), steaming was the only method with no significant vitamin C loss; leafy greens are likely similar, but weren't tested.",
+   "keeps": "vitamin C",
+   "evidence": {
+    "level": "lab",
+    "source": "Yuan et al., J Zhejiang Univ Sci B 2009;10(8):580-588",
+    "url": "https://www.zjujournals.com/xueshu/zjus-b/EN/10.1631/jzus.B0920051"
+   }
+  },
+  {
+   "food": "Spinach, broccoli and other greens",
+   "tip": "Boiling lost about half the folate (spinach 51%, broccoli 56%), while steaming lost no significant amount.",
+   "keeps": "folate",
+   "evidence": {
+    "level": "lab",
+    "source": "McKillop et al., Br J Nutr 2002;88(6):681-688",
+    "url": "https://agris.fao.org/search/fr/records/65dfade20f3e94b9e5db5002"
+   }
+  },
+  {
+   "food": "Boiled veg and sup sayur",
+   "tip": "Vitamin C and B vitamins leak into the cooking water, so use little water and drink the soup.",
+   "keeps": "vitamin C, B vitamins",
+   "evidence": {
+    "level": "strong",
+    "source": "NIH Office of Dietary Supplements, Vitamin C fact sheet (water-soluble and destroyed by heat)",
+    "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+   }
+  },
+  {
+   "food": "Any vegetable",
+   "tip": "Cook quickly. Vitamin C is destroyed by heat and dissolves in water, so steaming or microwaving may limit losses.",
+   "keeps": "vitamin C",
+   "evidence": {
+    "level": "strong",
+    "source": "NIH Office of Dietary Supplements, Vitamin C fact sheet",
+    "url": "https://ods.od.nih.gov/factsheets/VitaminC-HealthProfessional/"
+   }
+  },
+  {
+   "food": "Tomatoes",
+   "tip": "Cooked tomato paste eaten with oil gave 3.8 times more lycopene in the blood than fresh tomatoes. Tomato-based gravies count.",
+   "keeps": "lycopene",
+   "evidence": {
+    "level": "some",
+    "source": "Gärtner, Stahl & Sies, Am J Clin Nutr 1997;66(1):116-122 (PubMed 9209178)",
+    "url": "https://pubmed.ncbi.nlm.nih.gov/9209178/"
+   }
+  },
+  {
+   "food": "Carrots",
+   "tip": "Cook and mash them. In 8 volunteers (people with an ileostomy, so absorption could be measured), about 65% of beta-carotene was absorbed from cooked puréed carrot vs 41% from raw, both eaten with oil.",
+   "keeps": "beta-carotene (vitamin A)",
+   "evidence": {
+    "level": "some",
+    "source": "Livny et al., Eur J Nutr 2003;42(6):338-345",
+    "url": "https://cris.huji.ac.il/en/publications/%CE%B2-carotene-bioavailability-from-differently-processed-carrot-meal/"
+   }
+  },
+  {
+   "food": "Salads and ulam",
+   "tip": "Add a little oil or a fatty side. With fat-free dressing, almost no beta-carotene was absorbed.",
+   "keeps": "beta-carotene, lycopene",
+   "evidence": {
+    "level": "some",
+    "source": "Brown, White et al., Am J Clin Nutr 2004 (Iowa State University news release)",
+    "url": "https://news.iastate.edu/news/2004/jul/whitebetac.shtml"
+   }
+  },
+  {
+   "food": "Rice",
+   "tip": "Chilling cooked rice in the fridge for 24 h and reheating raised resistant starch from 0.64 to 1.65 g per 100 g. Refrigerate within about an hour, eat within 24 h, and reheat once only.",
+   "keeps": "resistant starch (gentler blood-sugar rise)",
+   "evidence": {
+    "level": "some",
+    "source": "Sonia et al., Asia Pac J Clin Nutr 2015;24(4):620-625; safety: Food Standards Scotland",
+    "url": "https://apjcn.qdu.edu.cn/24_4_24.pdf"
+   }
+  },
+  {
+   "food": "Dhal and kacang hijau",
+   "tip": "Soaking alone didn't lower phytate (which blocks iron and zinc) in Canadian pulses. Cooking soaked pulses cut it by 11–39%, so cook them well.",
+   "keeps": "iron, zinc absorption",
+   "evidence": {
+    "level": "lab",
+    "source": "Shi L., MSc thesis, University of Manitoba 2015 (lab analysis)",
+    "url": "https://mspace.lib.umanitoba.ca/items/18a871ad-5def-4183-826b-1b091f3b5bff/full"
+   }
+  },
+  {
+   "food": "Ikan bilis",
+   "tip": "Don't remove the heads and guts. Whole anchovies had about 8 times the calcium of cleaned ones.",
+   "keeps": "calcium, iron, zinc",
+   "evidence": {
+    "level": "some",
+    "source": "Henry et al., Food Chemistry 2015, reported by Malay Mail 30 May 2015",
+    "url": "https://www.malaymail.com/news/malaysia/2015/05/30/study-ikan-bilis-is-good-for-you-but-dont-clean-them/905995"
+   }
+  }
+ ],
+ "heroes": [
+  {
+   "name": "Ikan bilis",
+   "zh": "江鱼仔",
+   "fact": "Eat them whole: anchovies with heads and guts had about 8 times the calcium of cleaned ones. A Malaysian study also found EPA made up 10.5% of their fat.",
+   "evidence": {
+    "level": "some",
+    "source": "Henry et al., Food Chemistry 2015 (via Malay Mail); Muhamad & Mohamad, Sains Malaysiana 2012;41(1):81-94",
+    "url": "https://www.malaymail.com/news/malaysia/2015/05/30/study-ikan-bilis-is-good-for-you-but-dont-clean-them/905995"
+   }
+  },
+  {
+   "name": "Tempeh",
+   "zh": "天贝",
+   "fact": "Tempeh is often called a vegan B12 source, but 100 g has only about 0.08 mcg, about 3% of the 2.4 mcg daily need. Vegans still need a supplement or fortified food.",
+   "evidence": {
+    "level": "strong",
+    "source": "USDA FDC 174272; NIH ODS Vitamin B12 fact sheet",
+    "url": "https://ods.od.nih.gov/factsheets/VitaminB12-HealthProfessional/"
+   }
+  },
+  {
+   "name": "Kangkung",
+   "zh": "空心菜",
+   "fact": "One of the cheapest greens, but 100 g gives about 45% of a woman's daily vitamin A (315 mcg).",
+   "evidence": {
+    "level": "strong",
+    "source": "USDA FDC 169301; RDA from NIH ODS Vitamin A fact sheet",
+    "url": "https://getfoodfacts.com/food/water-convolvulusraw-169301"
+   }
+  },
+  {
+   "name": "Bayam",
+   "zh": "苋菜",
+   "fact": "Local bayam has almost 3 times the vitamin C of imported spinach (77 vs 28 mg per 100 g).",
+   "evidence": {
+    "level": "strong",
+    "source": "MyFCD 105089; USDA FDC 168462",
+    "url": "https://myfcd.moh.gov.my/index.php/1997-food-compositon-database/226-spinach-(bayam-putih)-%3B-amaranthus-viridis.html"
+   }
+  },
+  {
+   "name": "Guava",
+   "zh": "番石榴",
+   "fact": "100 g of guava has 228 mg vitamin C, about 4 times an orange and 3 times a woman's daily need.",
+   "evidence": {
+    "level": "strong",
+    "source": "USDA FDC 173044 and 169917; RDA from NIH ODS Vitamin C fact sheet",
+    "url": "https://getfoodfacts.com/food/guavas-common-raw-173044"
+   }
+  },
+  {
+   "name": "Ulam raja",
+   "zh": "",
+   "fact": "In a Malaysian trial, people with type 2 diabetes who ate 15 g of fresh ulam raja a day for 8 weeks had lower insulin resistance. It was one small trial with no placebo.",
+   "evidence": {
+    "level": "some",
+    "source": "Cheng et al., Evid Based Complement Alternat Med 2015;2015:405615 (RCT, 101 randomised)",
+    "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC4680046"
+   }
+  },
+  {
+   "name": "Pegaga",
+   "zh": "雷公根",
+   "fact": "Pegaga's 'memory herb' reputation didn't hold up: 11 trials showed no better thinking skills, just slightly more alertness in self-reports.",
+   "evidence": {
+    "level": "myth",
+    "source": "Puttarak et al., Sci Rep 2017;7:10646 (meta-analysis)",
+    "url": "https://link.springer.com/article/10.1038/s41598-017-09823-9"
+   }
+  },
+  {
+   "name": "Bunga telang",
+   "zh": "蝶豆花",
+   "fact": "Its blue comes from anthocyanins called ternatins, which change colour with acidity: blue near neutral, violet to red as it gets more acidic. So a squeeze of lime shifts blue bunga telang tea towards purple.",
+   "evidence": {
+    "level": "lab",
+    "source": "Vidana Gamage, Lim & Choo, Front Plant Sci 2021;12:792303 (review)",
+    "url": "https://www.frontiersin.org/journals/plant-science/articles/10.3389/fpls.2021.792303/pdf"
+   }
+  },
+  {
+   "name": "Pulut hitam",
+   "zh": "黑糯米",
+   "fact": "Its near-black colour is almost all one pigment, cyanidin-3-glucoside (88–100% of its anthocyanins), sitting in the bran. That's the same pigment family as blueberries.",
+   "evidence": {
+    "level": "lab",
+    "source": "Zhao et al., Foods 2025;14(8):1394 (review)",
+    "url": "https://www.mdpi.com/2304-8158/14/8/1394"
+   }
+  },
+  {
+   "name": "Ikan kembung",
+   "zh": "甘望鱼",
+   "fact": "In a Malaysian study, DHA made up 10.6% of kembung's fat, more than in terubok. It's a fraction of salmon's price.",
+   "evidence": {
+    "level": "some",
+    "source": "Muhamad & Mohamad, Sains Malaysiana 2012;41(1):81-94",
+    "url": "https://ukm.my/jsm/english_journals/vol41num1_2012/vol41num1_2012pg81-94.html"
+   }
+  },
+  {
+   "name": "Tauhu",
+   "zh": "豆腐",
+   "fact": "Tofu set with calcium sulfate (gypsum) has about as much calcium per half cup (253 mg) as a cup of milk (276–299 mg).",
+   "evidence": {
+    "level": "strong",
+    "source": "NIH Office of Dietary Supplements, Calcium fact sheet",
+    "url": "https://ods.od.nih.gov/factsheets/Calcium-HealthProfessional/"
+   }
+  },
+  {
+   "name": "Sweet potato",
+   "zh": "番薯",
+   "fact": "One baked orange sweet potato has 156% of a day's vitamin A, more than a serving of carrots.",
+   "evidence": {
+    "level": "strong",
+    "source": "NIH Office of Dietary Supplements, Vitamin A fact sheet, Table 2",
+    "url": "https://ods.od.nih.gov/factsheets/VitaminA-HealthProfessional/"
+   }
+  },
+  {
+   "name": "Papaya",
+   "zh": "木瓜",
+   "fact": "100 g of betik gives 61 mg vitamin C, about 80% of a woman's daily need, for around RM6.59 a kilo.",
+   "evidence": {
+    "level": "strong",
+    "source": "USDA FDC 169926; price from swapsdata.json (KPDN PriceCatcher)",
+    "url": "https://getfoodfacts.com/food/papayas-raw-169926"
+   }
+  },
+  {
+   "name": "Kacang hijau",
+   "zh": "绿豆",
+   "fact": "Dry mung beans pack 23.9 g protein and 16.3 g fibre per 100 g, more fibre than dhal or quinoa.",
+   "evidence": {
+    "level": "strong",
+    "source": "USDA FDC 174256",
+    "url": "https://getfoodfacts.com/food/mung-beans-mature-seeds-raw-174256"
+   }
+  },
+  {
+   "name": "Egg yolk",
+   "zh": "蛋黄",
+   "fact": "In a small study of 10 men, lutein from lutein-enriched eggs raised blood lutein about 3 times more than the same dose from spinach or pills, possibly helped by the fats in the yolk.",
+   "evidence": {
+    "level": "some",
+    "source": "Chung, Rasmussen & Johnson, J Nutr 2004 (10 men, lutein-enriched eggs), USDA ARS news release",
+    "url": "https://www.ars.usda.gov/IS/pr/2004/040818.htm"
+   }
+  }
+ ]
+}

@@ -1,0 +1,852 @@
+{
+ "asOf": "2026-10-25",
+ "method": "per100g is per 100 g edible portion as given by the source. 'per RM' = per100g x 10 / rmPerKg, using the as-bought price, with no adjustment for inedible parts. MyFCD 1997 fibre values are not directly comparable with USDA dietary fibre, and MyFCD vitamin A is RE (stored as vitA_RE), not RAE. epa/dha in g per 100 g. null means not sourced.",
+ "foods": [
+  {
+   "id": "kale",
+   "name": "Kale",
+   "local": "Kale",
+   "zh": "羽衣甘蓝",
+   "group": "greens",
+   "availability": "highland",
+   "rmPerKg": 46.67,
+   "priceSource": {
+    "name": "Online listing, Kampung Cameron: RM7.00 per 150 g (supermarket listing Jaya Grocer / AEON myAEON2go, Genting Garden kale RM5.40 per 80 g = RM67.50/kg)",
+    "url": "https://kampungcameron.com/product-category/special-highlight/",
+    "date": "2026-10-25"
+   },
+   "per100g": {
+    "kcal": 35,
+    "protein": 2.92,
+    "fibre": 4.1,
+    "calcium": 254,
+    "iron": 1.6,
+    "vitC": 93.4,
+    "vitA_RAE": 241,
+    "vitK": 390,
+    "folate": 62,
+    "potassium": 348
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/kale-raw-168421",
+    "id": "FDC 168421"
+   }
+  },
+  {
+   "id": "watercress",
+   "name": "Watercress",
+   "local": "Selada air / sayur Selada",
+   "zh": "西洋菜",
+   "group": "greens",
+   "availability": "highland",
+   "rmPerKg": 11.14,
+   "priceSource": {
+    "name": "Online listing, Kampung Cameron: RM3.90 per 350 g (Vera Market Seremban: RM3.90 per 300 g = RM13.00/kg)",
+    "url": "https://kampungcameron.com/product-category/special-highlight/",
+    "date": "2026-10-25"
+   },
+   "per100g": {
+    "kcal": 11,
+    "protein": 2.3,
+    "fibre": 0.5,
+    "calcium": 120,
+    "iron": 0.2,
+    "vitC": 43,
+    "vitA_RAE": 160,
+    "vitK": 250,
+    "folate": 9,
+    "potassium": 330
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/watercress-raw-170068",
+    "id": "FDC 170068"
+   }
+  },
+  {
+   "id": "kailan",
+   "name": "Chinese kale (gai lan)",
+   "local": "Kailan",
+   "zh": "芥兰",
+   "group": "greens",
+   "availability": "local-everywhere",
+   "rmPerKg": 9.58,
+   "priceSource": {
+    "name": "KPDN PriceCatcher national average, week 11-17 Aug 2026 (via checkpricemalaysia.com)",
+    "url": "https://checkpricemalaysia.com/groceries/piramid-makanan-malaysia/",
+    "date": "2026-08-17"
+   },
+   "per100g": {
+    "kcal": 43,
+    "protein": 2.8,
+    "fibre": 0.6,
+    "calcium": 179,
+    "iron": 2.0,
+    "vitC": 107,
+    "vitA_RAE": null,
+    "vitK": null,
+    "folate": null,
+    "potassium": 378,
+    "vitA_RE": 503
+   },
+   "nutrientSource": {
+    "name": "Malaysian Food Composition Database (MyFCD) 1997 (fibre is the 1997 table's 'Fibre' value, likely crude fibre; vitamin A given as RE, not RAE)",
+    "url": "https://myfcd.moh.gov.my/index.php/1997-food-compositon-database/183-kale%2c-chinese-(kai-lan-coy)-%3b-brassica-alboglabra.html",
+    "id": "105046"
+   }
+  },
+  {
+   "id": "kangkung",
+   "name": "Water spinach",
+   "local": "Kangkung",
+   "zh": "空心菜 / 蕹菜",
+   "group": "greens",
+   "availability": "local-everywhere",
+   "rmPerKg": 6.5,
+   "priceSource": {
+    "name": "KPDN PriceCatcher national average (via calculatormalaysia.com); range RM1.39-RM396/kg, max looks like an outlier",
+    "url": "https://calculatormalaysia.com/barang-runcit/harga-sayur-malaysia/",
+    "date": "2026-10-24"
+   },
+   "per100g": {
+    "kcal": 19,
+    "protein": 2.6,
+    "fibre": 2.1,
+    "calcium": 77,
+    "iron": 1.68,
+    "vitC": 55,
+    "vitA_RAE": 315,
+    "vitK": null,
+    "folate": 57,
+    "potassium": 312
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy, Water convolvulus, raw",
+    "url": "https://fdc.nal.usda.gov/food-details/169301/nutrients",
+    "id": "FDC 169301"
+   }
+  },
+  {
+   "id": "sawi",
+   "name": "Mustard greens / choy sum",
+   "local": "Sawi hijau",
+   "zh": "菜心",
+   "group": "greens",
+   "availability": "local-everywhere",
+   "rmPerKg": 8.38,
+   "priceSource": {
+    "name": "KPDN PriceCatcher national average (via calculatormalaysia.com) (sawi hijau)",
+    "url": "https://calculatormalaysia.com/barang-runcit/harga-sayur-malaysia/",
+    "date": "2026-10-24"
+   },
+   "per100g": {
+    "kcal": 27,
+    "protein": 2.86,
+    "fibre": 3.2,
+    "calcium": 115,
+    "iron": 1.64,
+    "vitC": 70,
+    "vitA_RAE": 151,
+    "vitK": 258,
+    "folate": 12,
+    "potassium": 384
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central FNDDS 'Mustard greens, raw'. MyFCD lists sawi as Brassica juncea",
+    "url": "https://getfoodfacts.com/food/mustard-greens-raw-2709606",
+    "id": "FDC 2709606"
+   }
+  },
+  {
+   "id": "bayam",
+   "name": "Amaranth (spinach, bayam putih)",
+   "local": "Bayam",
+   "zh": "苋菜",
+   "group": "greens",
+   "availability": "local-everywhere",
+   "rmPerKg": 5.99,
+   "priceSource": {
+    "name": "KPDN PriceCatcher national average, week 11-17 Aug 2026 (via checkpricemalaysia.com) (bayam hijau)",
+    "url": "https://checkpricemalaysia.com/groceries/piramid-makanan-malaysia/",
+    "date": "2026-08-17"
+   },
+   "per100g": {
+    "kcal": 21,
+    "protein": 2.1,
+    "fibre": 0.7,
+    "calcium": 90,
+    "iron": 3.8,
+    "vitC": 76.6,
+    "vitA_RAE": null,
+    "vitK": null,
+    "folate": null,
+    "potassium": 385,
+    "vitA_RE": 680
+   },
+   "nutrientSource": {
+    "name": "Malaysian Food Composition Database (MyFCD) 1997 (fibre likely crude fibre; vitamin A given as RE, not RAE)",
+    "url": "https://myfcd.moh.gov.my/index.php/1997-food-compositon-database/226-spinach-(bayam-putih)-%3B-amaranthus-viridis.html",
+    "id": "105089"
+   }
+  },
+  {
+   "id": "spinach",
+   "name": "Spinach",
+   "local": "Bayam Cameron / por-coy",
+   "zh": "菠菜",
+   "group": "greens",
+   "availability": "highland",
+   "rmPerKg": 80.0,
+   "priceSource": {
+    "name": "Online listing, Kampung Cameron: baby spinach RM8.00 per 100 g",
+    "url": "https://kampungcameron.com/product-category/special-highlight/",
+    "date": "2026-10-25"
+   },
+   "per100g": {
+    "kcal": 23,
+    "protein": 2.86,
+    "fibre": 2.2,
+    "calcium": 99,
+    "iron": 2.71,
+    "vitC": 28.1,
+    "vitA_RAE": 469,
+    "vitK": 483,
+    "folate": 194,
+    "potassium": 558
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/spinach-raw-168462",
+    "id": "FDC 168462"
+   }
+  },
+  {
+   "id": "broccoli",
+   "name": "Broccoli",
+   "local": "Brokoli",
+   "zh": "西兰花",
+   "group": "greens",
+   "availability": "imported",
+   "rmPerKg": 11.11,
+   "priceSource": {
+    "name": "KPDN PriceCatcher national average via OpenDOSM, week of 20 Apr 2026 (via ManaMurah blog)",
+    "url": "https://manamurah.com/blog/trend-harga-sayur-april-2026",
+    "date": "2026-04-20"
+   },
+   "per100g": {
+    "kcal": 34,
+    "protein": 2.82,
+    "fibre": 2.6,
+    "calcium": 47,
+    "iron": 0.73,
+    "vitC": 89.2,
+    "vitA_RAE": 31,
+    "vitK": 102,
+    "folate": 63,
+    "potassium": 316
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/broccoli-raw-170379",
+    "id": "FDC 170379"
+   }
+  },
+  {
+   "id": "cabbage",
+   "name": "Cabbage",
+   "local": "Kubis bulat",
+   "zh": "包菜",
+   "group": "greens",
+   "availability": "local-everywhere",
+   "rmPerKg": 5.08,
+   "priceSource": {
+    "name": "KPDN PriceCatcher national average, week 11-17 Aug 2026 (via checkpricemalaysia.com) (kubis bulat tempatan)",
+    "url": "https://checkpricemalaysia.com/groceries/piramid-makanan-malaysia/",
+    "date": "2026-08-17"
+   },
+   "per100g": {
+    "kcal": 25,
+    "protein": 1.28,
+    "fibre": 2.5,
+    "calcium": 40,
+    "iron": 0.47,
+    "vitC": 36.6,
+    "vitA_RAE": 5,
+    "vitK": 76,
+    "folate": 43,
+    "potassium": 170
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/cabbage-raw-169975",
+    "id": "FDC 169975"
+   }
+  },
+  {
+   "id": "blueberries",
+   "name": "Blueberries",
+   "local": "Blueberi",
+   "zh": "蓝莓",
+   "group": "fruit",
+   "availability": "imported",
+   "rmPerKg": 79.2,
+   "priceSource": {
+    "name": "Supermarket listing, myAEON2go: RM9.90 per 125 g",
+    "url": "https://myaeon2go.com/product/7266/blueberry",
+    "date": "2026-10-25"
+   },
+   "per100g": {
+    "kcal": 57,
+    "protein": 0.74,
+    "fibre": 2.4,
+    "calcium": 6,
+    "iron": 0.28,
+    "vitC": 9.7,
+    "vitA_RAE": 3,
+    "vitK": 19.3,
+    "folate": 6,
+    "potassium": 77
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/blueberries-raw-171711",
+    "id": "FDC 171711"
+   }
+  },
+  {
+   "id": "guava",
+   "name": "Guava",
+   "local": "Jambu batu",
+   "zh": "番石榴",
+   "group": "fruit",
+   "availability": "local-everywhere",
+   "rmPerKg": 7.92,
+   "priceSource": {
+    "name": "KPDN PriceCatcher national average, week 11-17 Aug 2026 (via checkpricemalaysia.com) (jambu batu berbiji)",
+    "url": "https://checkpricemalaysia.com/groceries/piramid-makanan-malaysia/",
+    "date": "2026-08-17"
+   },
+   "per100g": {
+    "kcal": 68,
+    "protein": 2.55,
+    "fibre": 5.4,
+    "calcium": 18,
+    "iron": 0.26,
+    "vitC": 228,
+    "vitA_RAE": 31,
+    "vitK": 2.6,
+    "folate": 49,
+    "potassium": 417
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/guavas-common-raw-173044",
+    "id": "FDC 173044"
+   }
+  },
+  {
+   "id": "papaya",
+   "name": "Papaya",
+   "local": "Betik",
+   "zh": "木瓜",
+   "group": "fruit",
+   "availability": "local-everywhere",
+   "rmPerKg": 6.59,
+   "priceSource": {
+    "name": "KPDN PriceCatcher national average, week 11-17 Aug 2026 (via checkpricemalaysia.com) (betik biasa)",
+    "url": "https://checkpricemalaysia.com/groceries/piramid-makanan-malaysia/",
+    "date": "2026-08-17"
+   },
+   "per100g": {
+    "kcal": 43,
+    "protein": 0.47,
+    "fibre": 1.7,
+    "calcium": 20,
+    "iron": 0.25,
+    "vitC": 60.9,
+    "vitA_RAE": 47,
+    "vitK": 2.6,
+    "folate": 37,
+    "potassium": 182
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/papayas-raw-169926",
+    "id": "FDC 169926"
+   }
+  },
+  {
+   "id": "banana",
+   "name": "Banana",
+   "local": "Pisang berangan",
+   "zh": "香蕉",
+   "group": "fruit",
+   "availability": "local-everywhere",
+   "rmPerKg": 7.52,
+   "priceSource": {
+    "name": "KPDN PriceCatcher national average, week 11-17 Aug 2026 (via checkpricemalaysia.com) (pisang berangan)",
+    "url": "https://checkpricemalaysia.com/groceries/piramid-makanan-malaysia/",
+    "date": "2026-08-17"
+   },
+   "per100g": {
+    "kcal": 89,
+    "protein": 1.09,
+    "fibre": 2.6,
+    "calcium": 5,
+    "iron": 0.26,
+    "vitC": 8.7,
+    "vitA_RAE": 3,
+    "vitK": 0.5,
+    "folate": 20,
+    "potassium": 358
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/bananas-raw-173944",
+    "id": "FDC 173944"
+   }
+  },
+  {
+   "id": "quinoa",
+   "name": "Quinoa (dry)",
+   "local": "Kuinoa",
+   "zh": "藜麦",
+   "group": "protein",
+   "availability": "imported",
+   "rmPerKg": 59.8,
+   "priceSource": {
+    "name": "Supermarket listing, Jaya Grocer: Love Earth Organic Mixed Quinoa RM29.90 per 500 g",
+    "url": "https://jgbj.jayagrocer.com/products/love-earth-organic-tri-quinoa-500g-1",
+    "date": "2026-10-25"
+   },
+   "per100g": {
+    "kcal": 368,
+    "protein": 14.1,
+    "fibre": 7.0,
+    "calcium": 47,
+    "iron": 4.57,
+    "vitC": null,
+    "vitA_RAE": 1,
+    "vitK": 0,
+    "folate": 184,
+    "potassium": 563
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/quinoa-uncooked-168874",
+    "id": "FDC 168874"
+   }
+  },
+  {
+   "id": "brownrice",
+   "name": "Brown rice (dry)",
+   "local": "Beras perang",
+   "zh": "糙米",
+   "group": "protein",
+   "availability": "local-everywhere",
+   "rmPerKg": 8.3,
+   "priceSource": {
+    "name": "Online listing (Shopee, Beras Perang Campuran 1 kg) quoted by checkpricemalaysia.com, page updated Sep 2026",
+    "url": "https://checkpricemalaysia.com/groceries/piramid-makanan-malaysia/",
+    "date": "2026-09"
+   },
+   "per100g": {
+    "kcal": 367,
+    "protein": 7.54,
+    "fibre": 3.6,
+    "calcium": 9,
+    "iron": 1.29,
+    "vitC": 0,
+    "vitA_RAE": 0,
+    "vitK": 0.6,
+    "folate": 23,
+    "potassium": 250
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/rice-brown-long-grain-raw-includes-foods-for-usdas-food-distribution-program-169703",
+    "id": "FDC 169703"
+   }
+  },
+  {
+   "id": "tempeh",
+   "name": "Tempeh",
+   "local": "Tempe",
+   "zh": "天贝",
+   "group": "protein",
+   "availability": "local-everywhere",
+   "rmPerKg": 20.0,
+   "priceSource": {
+    "name": "Supermarket listing, Jaya Grocer: Vanda Tempeh (Malaysia) RM5.00 per 250 g",
+    "url": "https://jgcj.jayagrocer.com/products/tempeh-250g-1",
+    "date": "2026-10-25"
+   },
+   "per100g": {
+    "kcal": 192,
+    "protein": 20.3,
+    "fibre": null,
+    "calcium": 111,
+    "iron": 2.7,
+    "vitC": 0,
+    "vitA_RAE": 0,
+    "vitK": null,
+    "folate": 24,
+    "potassium": 412
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy (fibre not in record)",
+    "url": "https://getfoodfacts.com/food/tempeh-174272",
+    "id": "FDC 174272"
+   }
+  },
+  {
+   "id": "egg",
+   "name": "Egg (whole)",
+   "local": "Telur",
+   "zh": "鸡蛋",
+   "group": "protein",
+   "availability": "local-everywhere",
+   "rmPerKg": 5.21,
+   "priceSource": {
+    "name": "Bernama via Malay Mail: grade B RM9.30 per tray of 30 at a KL market (1 May 2025, before the August 2025 end of the egg subsidy, so prices are now somewhat higher); per kg assumes 59.5 g an egg",
+    "url": "https://www.malaymail.com/news/malaysia/2025/05/01/egg-prices-hold-steady-as-subsidy-reduction-takes-effect-consumers-urged-to-avoid-panic-buying/175221",
+    "date": "2025-05-01"
+   },
+   "per100g": {
+    "kcal": 143,
+    "protein": 12.6,
+    "fibre": 0,
+    "calcium": 56,
+    "iron": 1.75,
+    "vitC": 0,
+    "vitA_RAE": 160,
+    "vitK": 0.3,
+    "folate": 47,
+    "potassium": 138
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/egg-whole-raw-fresh-171287",
+    "id": "FDC 171287"
+   }
+  },
+  {
+   "id": "dhal",
+   "name": "Red lentils / dhal (dry)",
+   "local": "Kacang dal merah",
+   "zh": "红扁豆",
+   "group": "protein",
+   "availability": "local-everywhere",
+   "rmPerKg": 6.18,
+   "priceSource": {
+    "name": "Online listing (Shopee, Kacang Dhal Merah/Masoor 1 kg) quoted by checkpricemalaysia.com, page updated Sep 2026",
+    "url": "https://checkpricemalaysia.com/groceries/piramid-makanan-malaysia/",
+    "date": "2026-09"
+   },
+   "per100g": {
+    "kcal": 358,
+    "protein": 23.9,
+    "fibre": 10.8,
+    "calcium": 48,
+    "iron": 7.39,
+    "vitC": 1.7,
+    "vitA_RAE": 3,
+    "vitK": null,
+    "folate": 204,
+    "potassium": 668
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central SR Legacy",
+    "url": "https://getfoodfacts.com/food/lentils-pink-or-red-raw-174284",
+    "id": "FDC 174284"
+   }
+  },
+  {
+   "id": "kembung",
+   "name": "Indian mackerel",
+   "local": "Ikan kembung",
+   "zh": "甘望鱼",
+   "group": "protein",
+   "availability": "local-everywhere",
+   "rmPerKg": 16.0,
+   "priceSource": {
+    "name": "KPDN PriceCatcher national average, ikan kembung 8-12 ekor/kg, whole fish (via calculatormalaysia.com)",
+    "url": "https://calculatormalaysia.com/barang-runcit/harga-ikan-malaysia/",
+    "date": "2026-10-24"
+   },
+   "per100g": {
+    "kcal": 118,
+    "protein": 21.8,
+    "fibre": 0,
+    "calcium": 46,
+    "iron": 1.4,
+    "vitC": 0,
+    "vitA_RAE": 30,
+    "vitK": null,
+    "folate": null,
+    "potassium": null,
+    "epa": null,
+    "dha": null
+   },
+   "nutrientSource": {
+    "name": "Philippine Food Composition Table (DOST-FNRI PhilFCT) 2019, 'Mackerel, Indian (Rastrelliger kanagurta)'; MyFCD page not reachable",
+    "url": "https://i.fnri.dost.gov.ph/fct/library/report/4053",
+    "id": "G073"
+   }
+  },
+  {
+   "id": "salmon",
+   "name": "Atlantic salmon (farmed)",
+   "local": "Salmon",
+   "zh": "三文鱼",
+   "group": "protein",
+   "availability": "imported",
+   "rmPerKg": 59.9,
+   "priceSource": {
+    "name": "Supermarket listing, Jaya Grocer Norwegian whole salmon promo RM59.90/kg, 28-31 Aug 2026 (fillet: Southern Rock Seafood half fillet RM210 per ~1.3 kg = ~RM162/kg)",
+    "url": "https://www.everydayonsales.com/935048/28-31-august-2026-jaya-grocer-promotion-on-norwegian-atlantic-whole-salmon-from-rm59-90-kg-for-merdeka-holiday/",
+    "date": "2026-08-28"
+   },
+   "per100g": {
+    "kcal": 200,
+    "protein": 20.3,
+    "fibre": null,
+    "calcium": 9.42,
+    "iron": 0.26,
+    "vitC": null,
+    "vitA_RAE": null,
+    "vitK": null,
+    "folate": null,
+    "potassium": 378,
+    "epa": 0.32,
+    "dha": 0.58
+   },
+   "nutrientSource": {
+    "name": "USDA FoodData Central Foundation Foods",
+    "url": "https://getfoodfacts.com/food/fish-salmon-atlantic-farm-raised-raw-2684441",
+    "id": "FDC 2684441"
+   }
+  }
+ ],
+ "swaps": [
+  {
+   "from": "kale",
+   "to": "watercress",
+   "verdict": "Watercress is often said to beat kale on nutrients and fibre. It doesn't. Per 100 g (USDA), kale has more of every nutrient listed here, including fibre (4.1 g vs 0.5 g), iron (1.6 vs 0.2 mg) and folate (62 vs 9 ug). What watercress does win on is price: about RM11/kg against RM47/kg from the same Cameron seller, so each ringgit buys more calcium, vitamin C, vitamin A, vitamin K, potassium and protein. Kale still gives more fibre, iron and folate per ringgit.",
+   "wins": [
+    "protein per RM",
+    "calcium per RM",
+    "vitC per RM",
+    "vitA per RM",
+    "vitK per RM",
+    "potassium per RM"
+   ],
+   "loses": [
+    "protein per 100 g",
+    "fibre per 100 g",
+    "fibre per RM",
+    "calcium per 100 g",
+    "iron per 100 g",
+    "iron per RM",
+    "vitC per 100 g",
+    "vitA per 100 g",
+    "vitK per 100 g",
+    "folate per 100 g",
+    "folate per RM",
+    "potassium per 100 g"
+   ]
+  },
+  {
+   "from": "kale",
+   "to": "kailan",
+   "verdict": "Kailan costs about a fifth of kale's price (RM9.58 vs RM46.67/kg) and has more vitamin C (107 vs 93 mg), iron (2.0 vs 1.6 mg) and potassium per 100 g. Kale has more calcium (254 vs 179 mg). Fibre can't be compared fairly because MyFCD 1997 uses an older fibre method (0.6 g vs kale's 4.1 g), so treat kale as the higher-fibre option.",
+   "wins": [
+    "protein per RM",
+    "calcium per RM",
+    "iron per 100 g",
+    "iron per RM",
+    "vitC per 100 g",
+    "vitC per RM",
+    "potassium per 100 g",
+    "potassium per RM"
+   ],
+   "loses": [
+    "protein per 100 g",
+    "calcium per 100 g"
+   ]
+  },
+  {
+   "from": "kale",
+   "to": "kangkung",
+   "verdict": "Kangkung is about one-seventh of kale's price (RM6.50 vs RM46.67/kg). Per ringgit it gives more of every nutrient compared here, fibre included (3.2 vs 0.9 g per RM). Per 100 g, kale is still higher in fibre (4.1 vs 2.1 g) and calcium (254 vs 77 mg).",
+   "wins": [
+    "protein per RM",
+    "fibre per RM",
+    "calcium per RM",
+    "iron per 100 g",
+    "iron per RM",
+    "vitC per RM",
+    "vitA per 100 g",
+    "vitA per RM",
+    "folate per RM",
+    "potassium per RM"
+   ],
+   "loses": [
+    "protein per 100 g",
+    "fibre per 100 g",
+    "calcium per 100 g",
+    "vitC per 100 g",
+    "folate per 100 g",
+    "potassium per 100 g"
+   ]
+  },
+  {
+   "from": "spinach",
+   "to": "bayam",
+   "verdict": "Local bayam costs RM5.99/kg against about RM80/kg for Cameron baby spinach. Per 100 g it has more vitamin C (77 vs 28 mg) and iron (3.8 vs 2.7 mg), and slightly less calcium and potassium. Per ringgit, bayam gives roughly 10 to 35 times more of each nutrient.",
+   "wins": [
+    "protein per RM",
+    "calcium per RM",
+    "iron per 100 g",
+    "iron per RM",
+    "vitC per 100 g",
+    "vitC per RM",
+    "potassium per RM"
+   ],
+   "loses": [
+    "protein per 100 g",
+    "calcium per 100 g",
+    "potassium per 100 g"
+   ]
+  },
+  {
+   "from": "broccoli",
+   "to": "kailan",
+   "verdict": "Kailan is a little cheaper (RM9.58 vs RM11.11/kg) and has more calcium (179 vs 47 mg), iron (2.0 vs 0.7 mg) and vitamin C per 100 g. Broccoli has more measured fibre, but the two databases measure fibre differently.",
+   "wins": [
+    "protein per RM",
+    "calcium per 100 g",
+    "calcium per RM",
+    "iron per 100 g",
+    "iron per RM",
+    "vitC per 100 g",
+    "vitC per RM",
+    "potassium per 100 g",
+    "potassium per RM"
+   ],
+   "loses": [
+    "protein per 100 g"
+   ]
+  },
+  {
+   "from": "blueberries",
+   "to": "guava",
+   "verdict": "Guava costs a tenth of what blueberries cost (RM7.92 vs RM79.20/kg). Per 100 g it has about 23 times the vitamin C (228 vs 9.7 mg) and over twice the fibre (5.4 vs 2.4 g). Blueberries only win on vitamin K per 100 g, and on iron by a tiny margin.",
+   "wins": [
+    "protein per 100 g",
+    "protein per RM",
+    "fibre per 100 g",
+    "fibre per RM",
+    "calcium per 100 g",
+    "calcium per RM",
+    "iron per RM",
+    "vitC per 100 g",
+    "vitC per RM",
+    "vitA per 100 g",
+    "vitA per RM",
+    "vitK per RM",
+    "folate per 100 g",
+    "folate per RM",
+    "potassium per 100 g",
+    "potassium per RM"
+   ],
+   "loses": [
+    "iron per 100 g",
+    "vitK per 100 g"
+   ]
+  },
+  {
+   "from": "quinoa",
+   "to": "tempeh",
+   "verdict": "Tempeh has more protein per 100 g (20.3 vs 14.1 g dry quinoa) at a third of the price, so it gives about 4 times more protein per ringgit. Quinoa has more iron and folate per 100 g, and its fibre can't be compared because tempeh's fibre value is missing.",
+   "wins": [
+    "protein per 100 g",
+    "protein per RM",
+    "calcium per 100 g",
+    "calcium per RM",
+    "iron per RM",
+    "potassium per RM"
+   ],
+   "loses": [
+    "iron per 100 g",
+    "vitA per 100 g",
+    "vitA per RM",
+    "folate per 100 g",
+    "folate per RM",
+    "potassium per 100 g"
+   ]
+  },
+  {
+   "from": "quinoa",
+   "to": "brownrice",
+   "verdict": "Brown rice has about half of quinoa's protein (7.5 vs 14.1 g), fibre (3.6 vs 7.0 g) and iron per 100 g dry. Because it costs RM8.30 vs RM59.80/kg, it still gives more protein, fibre and iron per ringgit. It's a cheaper staple, not a nutrient match.",
+   "wins": [
+    "protein per RM",
+    "fibre per RM",
+    "calcium per RM",
+    "iron per RM",
+    "vitK per 100 g",
+    "vitK per RM",
+    "potassium per RM"
+   ],
+   "loses": [
+    "protein per 100 g",
+    "fibre per 100 g",
+    "calcium per 100 g",
+    "iron per 100 g",
+    "vitA per 100 g",
+    "vitA per RM",
+    "folate per 100 g",
+    "folate per RM",
+    "potassium per 100 g"
+   ]
+  },
+  {
+   "from": "quinoa",
+   "to": "dhal",
+   "verdict": "Red lentils (dhal) beat quinoa per 100 g dry on protein (23.9 vs 14.1 g), fibre (10.8 vs 7.0 g), iron (7.4 vs 4.6 mg) and folate. At RM6.18/kg against RM59.80/kg, they give about 10 to 16 times more of each per ringgit.",
+   "wins": [
+    "protein per 100 g",
+    "protein per RM",
+    "fibre per 100 g",
+    "fibre per RM",
+    "calcium per 100 g",
+    "calcium per RM",
+    "iron per 100 g",
+    "iron per RM",
+    "vitA per 100 g",
+    "vitA per RM",
+    "folate per 100 g",
+    "folate per RM",
+    "potassium per 100 g",
+    "potassium per RM"
+   ],
+   "loses": []
+  },
+  {
+   "from": "salmon",
+   "to": "kembung",
+   "verdict": "Ikan kembung has about the same protein as salmon per 100 g (21.8 vs 20.3 g), plus more calcium and iron, at about a quarter of the price (RM16 vs RM60/kg, both whole fish). Salmon's omega-3 content is known (EPA 0.32 g + DHA 0.58 g per 100 g). We have no g-per-100 g value for kembung, though a Malaysian study (Sains Malaysiana 2012) found DHA 10.6% and EPA 4.9% of its fatty acids. The nutrient values come from different databases (USDA vs PhilFCT).",
+   "wins": [
+    "protein per 100 g",
+    "protein per RM",
+    "calcium per 100 g",
+    "calcium per RM",
+    "iron per 100 g",
+    "iron per RM"
+   ],
+   "loses": []
+  }
+ ]
+}

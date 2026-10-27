@@ -1,0 +1,47 @@
+/* Print: the plan, cook-ahead and shopping list on A4, black and white, no backgrounds. */
+@page { size: A4; margin: 12mm; }
+* { background: transparent !important; color: #000 !important; box-shadow: none !important; text-shadow: none !important; }
+body { font-size: 10pt; line-height: 1.35; padding: 0 !important; }
+.topbar, .tabbar, .skip-link, .btn, .btn-row, .plan-actions, .banner, dialog, .hud, .plan-days, .week-rail, #announcer,
+.screen-only, .ifthen form, .setup-line .btn, .src, .tick-row input, .have-btn, .lead, .plan-grid-wrap > .small { display: none !important; }
+.page { padding: 0; max-width: none; }
+h1 { font-size: 16pt; margin: 0 0 2pt; }
+h2, .section-title, .card-title { font-size: 12pt; margin: 8pt 0 3pt; }
+.setup-line { font-size: 9pt; margin: 0 0 4pt; }
+.tag { border: 0 !important; padding: 0; font-weight: 400; font-size: 7pt; text-transform: uppercase; letter-spacing: .03em; }
+/* tags stack one per line inside the narrow print cells: nothing runs past the cell edge */
+.pg-meta { display: flex; flex-direction: column; align-items: flex-start; gap: 1pt; }
+.pg-tags { display: flex; flex-direction: column; align-items: flex-start; gap: 0; flex-basis: auto !important; }
+.pg-tags .tag { white-space: normal; overflow-wrap: break-word; max-width: 100%; line-height: 1.2; }
+.totals { display: grid !important; grid-template-columns: repeat(5, 1fr); gap: 4pt; margin: 4pt 0; }
+.total, .total:first-child { grid-column: auto; border: 1px solid #000; padding: 4pt; border-radius: 0; }
+.t-value { font-size: 11pt; }
+.t-label, .t-sub { font-size: 7.5pt; }
+.plan-grid { display: grid !important; grid-template-columns: 52pt repeat(7, 1fr); gap: 2pt; }
+.pg-cell { min-height: 0; padding: 3pt; border: 1px solid #000; border-radius: 0; font-size: 8pt; gap: 2pt; }
+.pg-meta { font-size: 7pt; min-width: 0; }
+.pg-price { font-weight: 400; font-size: 7pt; }
+.pg-day { font-size: 8.5pt; padding: 0; }
+.pg-slot { font-size: 8pt; }
+.plan-cards { display: grid !important; grid-template-columns: 1fr 1fr; gap: 6pt; margin-top: 6pt; }
+.card { border: 1px solid #000; border-radius: 0; padding: 5pt; break-inside: avoid; }
+.prep-list > li { padding: 2pt 0; }
+.steps { font-size: 8pt; }
+.shopping { break-inside: auto; }
+.aisles { columns: 2 !important; column-gap: 8pt; }
+.aisle { border: 1px solid #000; border-radius: 0; padding: 4pt 6pt; break-inside: avoid; margin-bottom: 6pt; }
+.tick-row { min-height: 0; grid-template-columns: 9pt 1fr auto; gap: 5pt; font-size: 9pt; }
+.tick-box { display: inline-block !important; width: 8pt; height: 8pt; border: 1px solid #000; }
+.tick-row input:checked ~ .tick-name { text-decoration: none; }
+.tick-line.have { min-height: 0; font-size: 8pt; }
+.tick-left { margin-top: 0 !important; padding: 0 0 2pt 14pt !important; font-size: 7.5pt; }
+.aisle li { padding: 1pt 0; }
+.icon { display: none; }
+.print-only { display: block !important; font-size: 7.5pt; margin-top: 6pt; }
+span.print-only { display: inline-block !important; }
+a { text-decoration: none; }
+
+.pv-off { display: block !important; }
+.plan-views, .day-chips { display: none !important; }
+.part { display: block !important; }
+.part-chips { display: none !important; }

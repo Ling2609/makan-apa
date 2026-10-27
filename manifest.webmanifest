@@ -1,0 +1,42 @@
+{
+  "name": "Makan Apa?",
+  "short_name": "Makan Apa",
+  "description": "Can't decide what to eat? One meal pick that fits your budget, allergies, kitchen and day, plus sourced food tips.",
+  "start_url": "app.html#home",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#fffbf2",
+  "theme_color": "#254f3a",
+  "icons": [
+    {
+      "src": "assets/icons/app-192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "any maskable"
+    },
+    {
+      "src": "assets/icons/app-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ],
+  "shortcuts": [
+    {
+      "name": "Pick for me",
+      "url": "app.html#pick"
+    },
+    {
+      "name": "Learn",
+      "url": "app.html#learn"
+    },
+    {
+      "name": "My plan",
+      "url": "app.html#plan"
+    },
+    {
+      "name": "Saved meals",
+      "url": "app.html#collection?saved=1"
+    }
+  ]
+}
