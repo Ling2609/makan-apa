@@ -37,7 +37,7 @@ const MakanTour = (() => {
     else { const heading = document.querySelector("main h1"); if (heading) { heading.setAttribute("tabindex", "-1"); heading.focus({ preventScroll: true }); } }
   }
   function mascot() {
-    return '<svg viewBox="0 0 180 120" class="tour-mascot" aria-hidden="true"><ellipse cx="90" cy="108" rx="51" ry="7" fill="#203d2b" opacity=".12"/><path d="M50 54q0-35 40-35t40 35" fill="#fff9dc" stroke="#244b35" stroke-width="2.5"/><path d="m69 30 5 4m12-9 3 4m14-2 4 4m-47 9 6 2m17-4 5 3m17-2 4 3" stroke="#d9c98f" stroke-width="3" stroke-linecap="round"/><path d="M41 53h98q-5 43-49 43T41 53Z" fill="#284f3a"/><path d="M41 53h98" stroke="#173b2b" stroke-width="6" stroke-linecap="round"/><circle cx="74" cy="68" r="3" fill="#fff8db"/><circle cx="106" cy="68" r="3" fill="#fff8db"/><path d="M83 77q7 7 14 0" fill="none" stroke="#fff8db" stroke-width="2.5" stroke-linecap="round"/><path d="m32 65-12-8m125 7 13-15" stroke="#284f3a" stroke-width="4" stroke-linecap="round"/><path d="M124 37q0-28 25-24 1 23-25 24" fill="#739b53" stroke="#244b35" stroke-width="2"/><path d="M76 11q-7-6-1-12m17 13q-7-6-1-12" fill="none" stroke="#739b53" stroke-width="2" stroke-linecap="round"/></svg>';
+    return '<img src="assets/favicon/favicon.svg?v=1.6.0" class="tour-mascot" width="112" height="112" alt="">';
   }
   function welcome() {
     active = true; previousFocus = document.activeElement;

@@ -1,14 +1,15 @@
 // Service worker: makes the whole site work offline after the first visit.
 // Strategy: precache every file on install; serve from cache first, refresh the cache in the background.
 // Bump CACHE when files change so returning users get the new version.
-const CACHE = "makan-v7";
+const CACHE = "makan-v9";
 const FILES = [
   "./", "index.html", "app.html", "game.html", "toolkit.html", "manifest.webmanifest",
-  "css/layout.css", "css/experience.css", "css/refined.css", "css/base.css", "css/app.css", "css/landing.css", "css/print.css",
+  "css/layout.css", "css/workspace.css", "css/experience.css", "css/refined.css", "css/base.css", "css/app.css", "css/landing.css", "css/print.css",
   "js/tour.js", "js/foodart.js", "js/collection.js", "js/main.js", "js/icons.js", "js/foods.js", "js/storage.js", "js/week.js", "js/sim.js", "js/report.js",
   "js/planner.js", "js/checkin.js", "js/receipt.js", "js/classcode.js", "js/stalls.js", "js/realweek.js", "js/tools.js", "js/knowledge.js", "js/makan.js", "js/makanui.js", "js/app.js",
   "assets/food/kopitiam-hero.png", "assets/fonts/inter-latin-wght-normal.woff2", "assets/fonts/bricolage-grotesque-latin-wght-normal.woff2",
   "assets/fonts/ibm-plex-mono-latin-400-normal.woff2", "assets/fonts/ibm-plex-mono-latin-600-normal.woff2",
+  "assets/favicon/favicon.svg?v=1.6.0", "assets/favicon/favicon.png?v=1.6.0", "assets/icons/app-192.png?v=1.6.0",
   "assets/favicon/favicon.svg", "assets/favicon/favicon.png", "assets/icons/app-192.png", "assets/icons/app-512.png"
 ];
 

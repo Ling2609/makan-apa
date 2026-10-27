@@ -1,3 +1,10 @@
+# v1.6 — organization and shared identity
+
+- One canonical rice-bowl brand across headers, browser icons, installed icons and first-use welcome.
+- Daily Home layout, knowledge/activity sections, grouped everyday/practice tools.
+- Calmer landing composition and consistent headings, spacing and card corners.
+- All existing routes, workflows and persisted data retained.
+
 # v1.5
 
 Correct viewport-aligned tour highlights and rounded control outlines, live scroll/resize/font/image refresh, a fixed header with one content scroller, consistent Plan statistics and meal rows, usable narrow day controls, full-width narrow money fields, compact game counters, clean modal/menu transitions and print flow. Added geometry and shell regression tests. Sources and details: docs/LAYOUT_V1.5.md.

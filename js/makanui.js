@@ -170,8 +170,8 @@ const MA_UI = (function () {
     ui.view.innerHTML = `<div class="page home">
       <section class="home-hero">
         <p class="eyebrow">${new Date().toLocaleDateString("en-MY", { weekday: "long", day: "numeric", month: "short" })}</p>
-        <div class="home-hero-copy"><span class="menu-kicker">GOOD FOOD. STUDENT MONEY.</span><h1>Less deciding.<br><em>More makan.</em></h1>
-        <p class="lead">A meal that gets your budget, your food rules and your kind of day.</p>
+        <div class="home-hero-copy"><span class="menu-kicker">YOUR DAILY FOOD COMPANION</span><h1>What’s on<br><em>your plate?</em></h1>
+        <p class="lead">One good meal, matched to your budget and food rules.</p>
         <a class="btn btn-hero" href="#pick?slot=${slot}" id="pick-now">${ui.icon("plate")} Pick my ${slotWord(slot)}</a>
         <div class="home-alt">
           <a class="btn btn-quiet" href="#friends">${ui.icon("users")} With friends</a>
@@ -179,8 +179,6 @@ const MA_UI = (function () {
         </div><p class="home-footnote">${ui.icon("check")} Your rules. Your budget. Always.</p></div>
         <div class="home-food-scene" aria-hidden="true"><img src="assets/food/kopitiam-hero.png" alt="" width="1536" height="1024"><span class="food-sticker">makan<br><strong>time!</strong></span><span class="scene-label">A little local flavour</span></div>
       </section>
-      <section class="home-quick-menu" aria-labelledby="quick-menu-title"><div class="quick-menu-label"><p class="eyebrow">LET’S MAKE IT EASY</p><h2 id="quick-menu-title">What kind of<br><em>hungry?</em></h2></div><button type="button" class="quick-mood" data-quick-mood="quick"><span class="mood-icon">${ui.icon("bolt")}</span><strong>Between classes.</strong><small>15 minutes or less</small><span class="mood-arrow" aria-hidden="true">↗</span></button><button type="button" class="quick-mood" data-quick-mood="light"><span class="mood-icon">${ui.icon("leaf")}</span><strong>Keep it light.</strong><small>A lighter meal mood</small><span class="mood-arrow" aria-hidden="true">↗</span></button><button type="button" class="quick-mood" data-quick-mood="cook"><span class="mood-icon">${ui.icon("pot")}</span><strong>Made by me.</strong><small>Cook or kettle options</small><span class="mood-arrow" aria-hidden="true">↗</span></button></section>
-      <section class="home-discover card"><div><p class="eyebrow">THE EVERYDAY MENU</p><h2>Your next favourite<br>is waiting.</h2><p class="muted small">Find a familiar favourite or something new. Your food rules come with you.</p></div><div class="btn-row"><a class="btn btn-quiet" href="#collection">${ui.icon("plate")} Explore meals</a><a class="btn btn-ghost" href="#collection?saved=1">${ui.icon("star")} Saved meals</a></div></section>
       ${guide ? `<section class="card guide" aria-labelledby="guide-h">
         <h2 id="guide-h" class="card-title">${ui.icon("info")} How it works</h2>
         <ol class="guide-steps">
@@ -211,6 +209,8 @@ const MA_UI = (function () {
         <p class="tiny muted gauge-note">${ui.rm0(prof.budget)} a week, ${st.mode === "plan" ? "from your plan's check-in" : st.fromPlan ? "from meals you logged and your plan's check-in since Monday" : "from meals you logged since Monday"}. Fruit and veg: WHO suggests at least ${FV_TARGET_G} g a day${sourceA("WHO_D")}.</p>
         ${planNext ? `<p class="small plan-next">${ui.icon("calendar")} Your plan says ${slotWord(planNext)}: <strong>${ui.esc(mealById(st.plan.plan[st.idx][planNext]).name)}</strong>.</p>` : ""}
       </section>`}
+      <section class="home-quick-menu" aria-labelledby="quick-menu-title"><div class="quick-menu-label"><p class="eyebrow">LET’S MAKE IT EASY</p><h2 id="quick-menu-title">Make it<br><em>your kind.</em></h2></div><button type="button" class="quick-mood" data-quick-mood="quick"><span class="mood-icon">${ui.icon("bolt")}</span><strong>Between classes.</strong><small>15 minutes or less</small><span class="mood-arrow" aria-hidden="true">↗</span></button><button type="button" class="quick-mood" data-quick-mood="light"><span class="mood-icon">${ui.icon("leaf")}</span><strong>Keep it light.</strong><small>A lighter meal mood</small><span class="mood-arrow" aria-hidden="true">↗</span></button><button type="button" class="quick-mood" data-quick-mood="cook"><span class="mood-icon">${ui.icon("pot")}</span><strong>Made by me.</strong><small>Cook or kettle options</small><span class="mood-arrow" aria-hidden="true">↗</span></button></section>
+      <section class="home-discover card"><div><p class="eyebrow">THE EVERYDAY MENU</p><h2>Keep your favourites close.</h2><p class="muted small">Browse meals that fit your food rules, or return to something you love.</p></div><div class="btn-row"><a class="btn btn-quiet" href="#collection">${ui.icon("plate")} Explore meals</a><a class="btn btn-ghost" href="#collection?saved=1">${ui.icon("star")} Saved meals</a></div></section>
       ${guide ? "" : `<a class="fact-teaser" href="#heroes?i=${heroI}"><span class="ft-label">${ui.icon("star")} Did you know?</span>
         <span class="ft-text"><strong>${ui.esc(hero.name)}${hero.zh ? ` ${ui.esc(hero.zh)}` : ""}:</strong> ${ui.esc(firstSentence(hero.fact))}</span>${ui.icon("arrow")}</a>`}
     </div>`;
@@ -753,8 +753,8 @@ const MA_UI = (function () {
   function renderLearn() {
     const L = loadLearn();
     ui.view.innerHTML = `<div class="page learn">
-      <div class="section-masthead learn-masthead"><div><p class="eyebrow">A LITTLE FOOD FOR THOUGHT</p><h1>Learn about food</h1><p class="lead">Big food questions.<br>Small, evidence-backed bites.</p></div><span class="masthead-doodle" aria-hidden="true">${ui.icon("leaf")}<small>stay curious.</small></span></div>
-      <ul class="learn-grid">${LEARN_TILES.map((t, i) => `<li><a class="learn-tile" href="${t.href}"><span class="tile-number" aria-hidden="true">0${i + 1}</span>${ui.icon(t.icon)}<span><strong>${t.title}</strong><small>${t.sub}${t.href === "#quiz" && L.best !== null ? ` · best ${L.best}/5` : ""}</small></span></a></li>`).join("")}
+      <div class="section-masthead learn-masthead"><div><p class="eyebrow">A LITTLE FOOD FOR THOUGHT</p><h1>Learn about food</h1><p class="lead">Practical food knowledge, with the evidence behind it.</p></div><span class="masthead-doodle" aria-hidden="true">${ui.icon("leaf")}<small>stay curious.</small></span></div>
+      <ul class="learn-grid">${LEARN_TILES.map((t, i) => `${i === 0 ? '<li class="hub-group-label"><h2>Everyday food knowledge</h2><p>Explore ingredients, habits and local alternatives.</p></li>' : i === 5 ? '<li class="hub-group-label"><h2>Try it yourself</h2><p>Put what you learn into practice.</p></li>' : ""}<li><a class="learn-tile" href="${t.href}"><span class="tile-number" aria-hidden="true">0${i + 1}</span>${ui.icon(t.icon)}<span><strong>${t.title}</strong><small>${t.sub}${t.href === "#quiz" && L.best !== null ? ` · best ${L.best}/5` : ""}</small></span></a></li>`).join("")}
         <li><button type="button" class="learn-tile" id="badges-help" aria-haspopup="dialog">${ui.icon("info")}<span><strong>Evidence labels</strong><small>What “strong”, “some”, “lab only” and “myth” mean</small></span></button></li></ul>
     </div>`;
     $("#badges-help").addEventListener("click", () => ui.openSheet("Evidence labels", `<ul class="ev-legend-list">${["strong", "some", "lab", "myth"].map(k => `<li>${badge(k)} <span>${LEVEL[k].tip}</span></li>`).join("")}</ul>

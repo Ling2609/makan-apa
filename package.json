@@ -1,6 +1,6 @@
 {
   "name": "makan-apa",
-  "version": "1.5.0",
+  "version": "1.6.0",
   "private": true,
   "description": "Can't decide what to eat? One meal pick that fits your budget, allergies, kitchen and day, with sourced food tips for students in Malaysia.",
   "scripts": {
@@ -10,7 +10,9 @@
     "serve": "node tests/serve.js",
     "data": "node tools/build-knowledge.js",
     "test:design": "node tools/audit-design.js",
-    "test:tour-design": "node tools/audit-tour.js"
+    "test:tour-design": "node tools/audit-tour.js",
+    "test:organization": "node tools/audit-organization.js",
+    "brand:icons": "node tools/render-brand-icons.js"
   },
   "devDependencies": {
     "@axe-core/playwright": "4.10.1",

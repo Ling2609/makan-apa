@@ -1,5 +1,9 @@
 # Makan Apa?
 
+<img src="assets/favicon/favicon.svg" alt="Makan Apa rice-bowl logo" width="64" height="64">
+
+**v1.6 — a clearer daily workspace.** One shared rice-bowl logo across headers, browser tabs, installation icons and the tour. Home puts meal picking beside today’s progress; Learn and More group every existing feature by purpose. See [the feature map and update instructions](docs/ORGANIZATION_V1.6.md) and [validation results](docs/VALIDATION_V1.6.md).
+
 **Can't decide what to eat? One pick, with the reasons.**
 
 Makan Apa? picks one meal that fits your budget, allergies, halal or vegetarian rules, kitchen, the time you have, what's at home and what you've already eaten today. You get one pick, why it fits, and two backups, not a list of fifty options. Along the way it teaches you about food, and every fact shows its evidence level and source.
@@ -69,4 +73,4 @@ npm run data                       # rebuild js/knowledge.js from js/knowledge.j
 
 ## Credits
 
-Makan Apa? by Low Wei Ling. It started from [Eat For Tomorrow](https://github.com/sevenpluseight/eat-for-tomorrow), a hackathon game by team Keluar (Ling2609 and sevenpluseight). Eat For Tomorrow v2–v10 and all of Makan Apa? were built independently, without the other contributor. MIT licence.
+Makan Apa? by [Low Wei Ling (Ling2609)](https://github.com/Ling2609). It started from [Eat For Tomorrow](https://github.com/sevenpluseight/eat-for-tomorrow), a hackathon game by team Keluar ([Ling2609](https://github.com/Ling2609) and [sevenpluseight](https://github.com/sevenpluseight)). Eat For Tomorrow v2–v10 and all of Makan Apa? were built independently, without the other contributor. MIT licence.

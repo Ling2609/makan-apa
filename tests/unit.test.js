@@ -617,8 +617,8 @@ test("every file the app loads is in the offline cache list", () => {
   const root = path.join(__dirname, "..");
   ["index.html", "app.html"].forEach(page => {
     const html = fs.readFileSync(path.join(root, page), "utf8");
-    const refs = [...html.matchAll(/(?:src|href)="([^"#:]+\.(?:js|css|svg|png|webmanifest))"/g)].map(m => m[1]);
+    const refs = [...html.matchAll(/(?:src|href)="([^"#:]+\.(?:js|css|svg|png|webmanifest)(?:\?[^"#]*)?)"/g)].map(m => m[1]);
     refs.forEach(r => assert.ok(FILES.includes(r), `${page} loads ${r} but sw.js doesn't cache it`));
   });
-  FILES.filter(f => f !== "./").forEach(f => assert.ok(fs.existsSync(path.join(root, f)), `missing ${f}`));
+  FILES.filter(f => f !== "./").forEach(f => assert.ok(fs.existsSync(path.join(root, f.split("?")[0])), `missing ${f}`));
 });

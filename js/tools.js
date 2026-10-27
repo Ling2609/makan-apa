@@ -93,17 +93,22 @@ const EFT_TOOLS = (function () {
     const stalls = validateStalls(storeGet(KEYS.stalls, null));
     const cls = storeGet(KEYS.classroom, null);
     const n = cls && Array.isArray(cls.codes) ? cls.codes.length : 0;
-    ui.view.innerHTML = `<div class="page narrow tools">
-      <div class="section-masthead tools-masthead"><div><p class="eyebrow">YOUR FOOD-DAY TOOLKIT</p><h1>More</h1><p class="lead">Small tools.<br>Better food days.</p></div><span class="masthead-doodle" aria-hidden="true">${ui.icon("wallet")}<small>make it count.</small></span></div>
-      <div class="tour-replay-banner"><div><p class="eyebrow">A LITTLE REFRESHER?</p><h2>Your personal menu guide.</h2><p>Take another look around, at your own pace.</p></div><button type="button" class="btn" id="replay-tour" data-replay-tour>Show me around ${ui.icon("arrow")}</button></div>
-      <ul class="tool-list">
+    ui.view.innerHTML = `<div class="page tools">
+      <div class="section-masthead tools-masthead"><div><p class="eyebrow">YOUR FOOD-DAY TOOLKIT</p><h1>More</h1><p class="lead">Your money tools, practice space and a little help.</p></div><span class="masthead-doodle" aria-hidden="true">${ui.icon("wallet")}<small>make it count.</small></span></div>
+      <div class="tool-list">
+        <section class="tool-group" aria-labelledby="tools-daily"><div class="hub-section-head"><span class="eyebrow">01 / EVERYDAY</span><h2 id="tools-daily">Keep the week on track</h2><p>Check in, record a receipt and see where your money goes.</p></div><ul class="tool-group-list">
         <li><a class="tool" href="#today">${ui.icon("today")}<span><strong>Plan check-in</strong><small>Tick off your weekly plan's meals. Needs a started plan from the Plan tab.</small></span></a></li>
         <li><a class="tool" href="#receipt">${ui.icon("camera")}<span><strong>Scan a receipt</strong><small>Photo or pasted text → lines you check → your real week. Read on this phone, never uploaded.</small></span></a></li>
         <li><a class="tool" href="#realweek">${ui.icon("chart")}<span><strong>My real week</strong><small>${wk.total ? `${ui.rm(wk.total)} ${wk.planWeek ? "so far in your plan's week" : "in the last 7 days"}, by kind and day.` : "Where the money really went, against your budget and plan."}</small></span></a></li>
         <li><a class="tool" href="#stalls">${ui.icon("pin")}<span><strong>Stall price notes</strong><small>${stalls.length ? `${stalls.length} stall${stalls.length > 1 ? "s" : ""} noted. Share the list with friends by link or QR.` : "Note what stalls near you charge; feed the prices into your plan."}</small></span></a></li>
+        </ul></section>
+        <section class="tool-group" aria-labelledby="tools-practice"><div class="hub-section-head"><span class="eyebrow">02 / PRACTICE</span><h2 id="tools-practice">Learn by doing</h2><p>Try a food week, then share and compare in class.</p></div><ul class="tool-group-list">
         <li><a class="tool" href="#week">${ui.icon("play")}<span><strong>Practice week (game)</strong><small>Live one student food week in 10 minutes: kopitiam breakfasts, rainy-day delivery, a 1 a.m. mamak run. Mistakes cost nothing.</small></span></a></li>
         <li><a class="tool" href="#class">${ui.icon("school")}<span><strong>Class mode</strong><small>${n ? `${n} result codes in your class view.` : "Share an anonymous result code, or collect your class's codes as a lecturer. No server, no names."}</small></span></a></li>
-      </ul>
+        </ul></section>
+      </div>
+      <div class="tour-replay-banner"><div><h2>Need a hand?</h2><p>Replay the walkthrough whenever you like.</p></div><button type="button" class="btn" id="replay-tour" data-replay-tour>Show me around ${ui.icon("arrow")}</button></div>
+
     </div>`;
   }
 
